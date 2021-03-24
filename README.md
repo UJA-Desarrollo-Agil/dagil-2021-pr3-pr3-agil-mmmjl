@@ -36,3 +36,19 @@ Capturas de imagen de nuestro tablero Trello
 
 
 ![Imagen4](./games/media/img/trello4.jpeg)
+
+
+![Imagen5](./games/media/img/trello5.jpeg)
+
+
+![Imagen6](./games/media/img/trello6.jpeg)
+
+
+## Telegram
+
+Capturas de imagen de vinculación de Trello y GitHub con Telegram
+
+![Imagen7](./games/media/img/telegram1.jpeg)
+
+
+![Imagen8](./games/media/img/telegram2.jpeg)
