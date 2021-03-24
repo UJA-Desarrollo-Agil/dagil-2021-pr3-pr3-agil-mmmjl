@@ -10,12 +10,14 @@
 
 
 
-# Sprint 0 - Práctica 3
+# Sprint 0 
 
 ## Descripción del juego
 
-### Título
+### Título - Daniela y El Tesoro De Libertalia
 
+La historia cuenta la aventura de una joven cazarrecompensas llamada Daniela Colby. Lleva años retirada de su mayor afición pero una carta avisando
+de que se han encontrado pistas sobre la localización de Libertalia, la mayor colonia de piratas donde dejaban sus tesoros, hace que vuelva a retomar los mares. Tendrás que tomar decisiones para poder conseguir el máximo alijo posible y hacer que Daniela sea reconocida en el mundo como también lo fue su padre pero también habrá peligros que tendrá que salvar o morirá. Tu eliges.
 
 
 ## Trello
