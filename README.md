@@ -26,19 +26,13 @@ El enlace al tablero de esta práctica es [este](https://trello.com/b/13yneYEx/g
 
 Capturas de imagen de nuestro tablero Trello
 
-![Imagen1](./games/media/img/trello1.jpg)
+![Imagen1](./games/media/img/trello1.jpeg)
 
 
-![Imagen2](./games/media/img/trello2.jpg)
+![Imagen2](./games/media/img/trello2.jpeg)
 
 
-![Imagen3](./games/media/img/trello3.jpg)
+![Imagen3](./games/media/img/trello3.jpeg)
 
 
-![Imagen4](./games/media/img/trello4.jpg)
-
-Captura de Telegram al vincular Trello
-
-![Captura5](https://github.com/UJA-Desarrollo-Agil/dagil-2021-pr3-grupo1/blob/desarrollo/img/cap5.PNG)
-
-Captura de Telegram al vincular GitHub
+![Imagen4](./games/media/img/trello4.jpeg)
