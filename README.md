@@ -19,6 +19,8 @@
 La historia cuenta la aventura de una joven cazatesoros llamada Daniela Colby. Lleva años retirada de su mayor afición pero una carta avisando
 de que se han encontrado pistas sobre la localización de Libertalia, la mayor colonia de piratas donde todos los piratas pertenecientes a ella dejaban sus tesoros, hace que vuelva a retomar los mares. Tendrás que tomar decisiones para poder conseguir el máximo alijo posible y hacer que Daniela sea reconocida en el mundo como también lo fue su padre pero también habrá peligros que tendrá que salvar o morirá. Tu eliges.
 
+Para completar el juego al 100% debes hacerte con el máximo tesoro posible que son 50000 monedas de plata y 100000 monedas de oro. Debes ser muy hábil para conseguirlo. Buena suerte.
+
 
 ## Trello
 
@@ -64,15 +66,16 @@ Capturas de imagen de vinculación de Trello y GitHub con Telegram
 
 ### Captura de Pantalla sobre Sprint Backlog
 
-Para este sprint en un primer momento, antes del Product Backlog Refinement, teniamos que hacer 4 historias de uso que eran las siguientes:
+Para este sprint en un primer momento, antes del Product Backlog Refinement, teniamos que hacer 3 historias de uso que eran las siguientes:
 
 * El juego habrá de tener como mínimo 9 situaciones. Hemos elegido esta ya que tenemos que hacer las situaciones de la historia para que tome forme y esta historia de uso es vital para eso, de ahí que sea innegociable.
 
 * El jugador podrá moverse de unas situaciones a otras. Hemos elegido esta ya que el personaje tendrá que avanzar en la historia y para eso tendrá que cambiar de situacion varias veces, de ahí que además sea innegociable también.
 
-* El jugador podrá recoger objetos a lo largo del juego. Hemos elegido esta ya que el personaje tendrá que conseguir el tesoro de los piratas y para ello tendrá que recoger objetos que le ayudarán a cometer su objetivo.
-
 * Se añadirá música de fondo al juego. Hemos elegido esta ya que la música dará ambiente de aventura a la historia y nos meterá de lleno en el juego.
+
+Para este primer sprint haremos 12 situaciones de un total de 24 situaciones que tiene la historia del juego.
+
 
 ![Imagen9](./games/media/img/Sprint1.png)
 
@@ -111,3 +114,10 @@ En este apartado hemos descompuesto aquellas historias de uso que creiamos que s
 ![Imagen19](./games/media/img/Sprint1Tarea.png)
 
 ![Imagen20](./games/media/img/Sprint1Tarea2.png)
+
+
+### Actualización sobre Sprint Backlog
+
+Se ha quitado la historia de uso sobre la recogida de objetos a lo largo del juego. El motivo es simplificar los sprints y no agobiarnos con cada entrega. A continuación se verá la captura de Trello con la modificación.
+
+![Imagen21](./games/media/img/ActualizacionSprint1.png)
