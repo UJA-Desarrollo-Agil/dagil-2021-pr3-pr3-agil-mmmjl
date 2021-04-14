@@ -118,7 +118,7 @@ undum.game.situations = {
         estaba algo más viejo como era de esperar, pero su sonrisa tan contagiosa no se había ido.\
         Ambos se fueron a descansar a la casa que había alquilado Tom. Él siempre había sido tan\
         previsor que Daniela no se tenía que preocupar por nada. </p><br>\
-        <img src='./media/img/barcoisla.jpeg' height='500' width='320'>\
+        <img src='./media/img/barcoisla.jpg' height='320' width='500'>\
         <p>Al día siguiente, se prepararon bien. Cuando se pusieron a punto, salieron dirección islas de\
         Libertalia. Todo era precioso, se divisaba todas las islas y el arrecife de corales se veía a la\
         perfección al haber unas aguas tan cristalinas y limpias.</p><br>\
@@ -149,7 +149,7 @@ undum.game.situations = {
           camino parecía algo más iluminado pero también algo abandonado, aunque se podía pasar por él sin problemas.\
           En este segundo camino, al lado del camino Daniela pudo ver como una calavera parecida al mapa de la playa,\
           aunque esto no aseguraba nada a la cazatesoros. Daniela tiene que decidir entre <a href='camino1'>  ir por el primer\
-          camino </a> o <a href='camino2'> por el segundo camino.</a> <img src='./media/img/caminos.jpeg' height='320' width='500'></p>"
+          camino </a> o <a href='camino2'> por el segundo camino.</a> <img src='./media/img/caminos.jpg' height='320' width='500'></p>"
 
         ),
 
@@ -165,7 +165,7 @@ undum.game.situations = {
          No había lugar a fallos ya que la señal del mapa solo podía ser lo que tenían ante sus ojos. Cuando llegaron\
          a la entrada, algo descuidada y en un principio inaccesible, descubrieron la pista definitiva, el cartel con\
          una calavera igual a la de la carta de la playa. Todo salió a pedir boca hasta ese punto. Daniela y Tom no\
-         tienen mas elección que <a href='entrar' > entrar a Libertalia.</a><img src='./media/img/cartel.jpeg' height='320' width='500'></p>"
+         tienen mas elección que <a href='entrar' > entrar a Libertalia.</a><img src='./media/img/cartel.jpg' height='500' width='320'></p>"
 
 
 
