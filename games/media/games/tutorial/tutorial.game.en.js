@@ -123,7 +123,7 @@ undum.game.situations = {
         Libertalia. Todo era precioso, se divisaba todas las islas y el arrecife de corales se veía a la\
         perfección al haber unas aguas tan cristalinas y limpias.</p><br>\
         <p>Tras llegar a la isla donde se escucharon los estruendos y la polvareda, Tom se encontró con otra carta\
-         sobre una piedra en la arena de la orilla. Se la dio a Daniela y la leyó. Ponía lo siguiente:\
+         sobre una piedra en la arena de la orilla. Se la dio a Daniela y la leyó. Ponía lo siguiente:<br><br>\
         <p style='padding-left:20px'><em><b>Por Dios y la Libertad camaradas, este lugar será testigo de la creación\
          de nuestro bastión y juntos seremos la unión de piratas más temida de todoslos mares. Esta unión solo es el\
         comienzo de algo mas grande, el dominio total de todos los mares y con ello, seremos recordados por siempre.</b></em></p>\
@@ -142,14 +142,16 @@ undum.game.situations = {
           a la emoción del momento. La carta tenía en una de las esquinas, en la parte de atrás, un pequeño mapa sobre\
           un lugar con varias casas. Tenia que ser Libertalia ya que es donde aparte de guardar todo el tesoro, vivían\
           todos los piratas junto con sus familias. Tom no daba crédito ante tal hallazgo, aunque tenía un mal\
-          presentimiento. A los 10 minutos de estar andando entre árboles y frondosos arbustos, el camino se dividía\
+          presentimiento.</p>\
+          <p>A los 10 minutos de estar andando entre árboles y frondosos arbustos, el camino se dividía\
           en 2. El mapa no arrojaba pista en este sentido. Sólo salía un montón de casas junto con unas calaveras al\
           lado, luego Daniela y Tom estaban dudosos de qué camino escoger. Se podía divisar que el primer camino era\
           algo más oscuro y con un ruido algo extraño, aunque el camino parecía bastante seguro a priori. El segundo\
           camino parecía algo más iluminado pero también algo abandonado, aunque se podía pasar por él sin problemas.\
           En este segundo camino, al lado del camino Daniela pudo ver como una calavera parecida al mapa de la playa,\
           aunque esto no aseguraba nada a la cazatesoros. Daniela tiene que decidir entre <a href='camino1'>  ir por el primer\
-          camino </a> o <a href='camino2'> por el segundo camino.</a> <img src='./media/img/caminos.jpg' height='320' width='500'></p>"
+          camino </a> o <a href='camino2'> por el segundo camino.</a><br><br>\
+          <img src='./media/img/caminos.jpg' height='320' width='500'></p>"
 
         ),
 
@@ -165,7 +167,8 @@ undum.game.situations = {
          No había lugar a fallos ya que la señal del mapa solo podía ser lo que tenían ante sus ojos. Cuando llegaron\
          a la entrada, algo descuidada y en un principio inaccesible, descubrieron la pista definitiva, el cartel con\
          una calavera igual a la de la carta de la playa. Todo salió a pedir boca hasta ese punto. Daniela y Tom no\
-         tienen mas elección que <a href='entrar' > entrar a Libertalia.</a><img src='./media/img/cartel.jpg' height='500' width='320'></p>"
+         tienen mas elección que <a href='entrar'>entrar a Libertalia.</a><br><br>\
+         <center><img src='./media/img/cartel.jpg' height='500' width='320'></center></p>"
 
 
 
