@@ -105,7 +105,8 @@ undum.game.situations = {
       a Andrew la oferta de Libertalia ya que sería demasiado dolor para él y no quería perderlo.\
       Desecha la oferta y con ello deja el mundo de los piratas a un lado. Tal vez, algún día,\
       Andrew sepa la verdad, pero mientras tanto, será feliz en la ignorancia y sin preocuparse\
-      por si Daniela sigue viva.</p>"
+      por si Daniela sigue viva.</p><br>\
+      <img src='./media/img/fin.jpg' height='320' width='500'>"
     ),
 
     desayuno: new undum.SimpleSituation(
@@ -114,7 +115,8 @@ undum.game.situations = {
       La carta podía ser de un trabajo en otro de esos puertos tan abandonados y estaba algo vaga\
       para afrontarlo en este momento, aunque le extrañaba que le llegara algo así en carta.\
       Sólo ponía “Trabajo”. Tras desayunar, dejó la carta en la mesa de la cocina, se dispuso\
-      a ponerse su ropa deportiva y salió a pasear por el puerto.</p>\
+      a ponerse su ropa deportiva y salió a pasear por el puerto.</p><br>\
+      <img src='./media/img/puerto.jpg' height='320' width='500'>\
       <p>Brighton tenía su encanto y el puerto estaba recién remodelado y modernizado, lo que hacía\
       que cosas como pasear fueran el doble de agradable gracias a las nuevas instalaciones.\
       Daniela se dispuso a volver a su casa tras 1 hora andando. Al llegar a casa se encuentra\
@@ -134,7 +136,8 @@ undum.game.situations = {
       la oferta propuesta y tranquilizó a Andrew. Libertalia y su misterio es algo difícil de\
       rechazar, pero estar viva y poder contarlo y vivir felizmente al lado de los tuyos no tiene\
       precio así que todo terminó de la mejor manera para ellos, pero mal para la resolución del\
-      mayor misterio pirata de la historia.</p>"
+      mayor misterio pirata de la historia.</p><br>\
+      <img src='./media/img/fin.jpg' height='320' width='500'>"
     ),
 
     explorar: new undum.SimpleSituation(
@@ -181,7 +184,7 @@ undum.game.situations = {
       camino parecía algo más iluminado pero también algo abandonado, aunque se podía pasar por él sin problemas.\
       En este segundo camino, al lado del camino Daniela pudo ver como una calavera parecida al mapa de la playa,\
       aunque esto no aseguraba nada a la cazatesoros. Daniela tiene que decidir entre <a href='camino1'>  ir por el primer\
-      camino </a> o <a href='camino2'> por el segundo camino.</a><br><br>\
+      camino </a> o <a href='camino2'> por el segundo camino.</a><br>\
       <img src='./media/img/caminos.jpg' height='320' width='500'></p>"
     ),
 
@@ -223,14 +226,14 @@ undum.game.situations = {
       hacia delante por lo que pudiera pasar cuando de repente, la tierra se abrió ante ellos y cayeron por uno de los lados. Daniela consiguió agarrarse al único saliente que había\
       mientras que Tom estaba agarrado a Daniela. Daniela solo tenía 2 opciones: usar su fuerza para poder subir al camino mientras que Tom podría ponerse en el saliente y ya ayudarlo\
       o bien usar la cuerda que tanto le había servido otras veces para balancearse. Con ella podía enganchar una piedra enorme que estaba en el otro lado del camino e ir subiendo poco a poco,\
-      pero era más arriesgada ya que tiene que maniobrar para poder hacer el lazo. Daniela tiene que elegir entre: <a href='usarfueza'>usar su fuerza</a> o <a href='usarcuerda'> usar la cuerda.</a><br><br></p>\
+      pero era más arriesgada ya que tiene que maniobrar para poder hacer el lazo. Daniela tiene que elegir entre: <a href='usarfueza'>usar su fuerza</a> o <a href='usarcuerda'> usar la cuerda.</a><br></p>\
       <center><img src='./media/img/camino2.jpg' height='500' width='320'></center></p>"
     ),
 
     buscar: new undum.SimpleSituation(
       "<h1>Busca y rebusca</h1>\
       <p>Daniela se decidió a seguir buscando por la orilla. Podía haber algo que le podría dar más pistas sobre Libertalia y los piratas fundadores Thomas Tew y Henry Avery. Por desgracia no hubo nada\
-      más por toda la orilla así que no había mas remedio que. <a href='adentrarse'>adentrarse en la isla.</a><br><br>\
+      más por toda la orilla así que no había mas remedio que. <a href='adentrarse'>adentrarse en la isla.</a><br>\
       <center><img src='./media/img/orilla.png' height='320' width='500'></center></p>"
     ),
 
