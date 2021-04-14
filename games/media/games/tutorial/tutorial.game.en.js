@@ -104,7 +104,82 @@ undum.game.situations = {
 
     desayuno: new undum.SimpleSituation(
 
-    )
+    ),
+
+    explorar: new undum.SimpleSituation(
+        "<h1>Ida, ¿sin vuelta?</h1>\
+        <p>Llegó el día siguiente y con ello el día de la despedida. Cayó la noche y Andrew empezó a temblar\
+        de miedo. Sabía que Daniela se la jugaba, pero confiaba en ella como en nadie. Tras un último\
+        abrazo, Daniela montó en el barco que la llevaría hasta el otro puerto de la ciudad. Tras eso,\
+        tomaría un vuelo hacía Madagascar para después ya ir en barco hacia las islas donde se\
+        rumorean que está Libertalia. El vuelo fue tranquilo, aunque largo y Daniela aterrizó a las 7-8\
+        horas totalmente cansada. En el aeropuerto de Madagascar le esperaba Tom, el autor de la carta\
+        y su amigo explorador. Se dieron un gran abrazo por todo lo que habían pasado juntos. Tom\
+        estaba algo más viejo como era de esperar, pero su sonrisa tan contagiosa no se había ido.\
+        Ambos se fueron a descansar a la casa que había alquilado Tom. Él siempre había sido tan\
+        previsor que Daniela no se tenía que preocupar por nada. </p><br>\
+        <img src='./media/img/barcoisla.jpeg' height='500' width='320'>\
+        <p>Al día siguiente, se prepararon bien. Cuando se pusieron a punto, salieron dirección islas de\
+        Libertalia. Todo era precioso, se divisaba todas las islas y el arrecife de corales se veía a la\
+        perfección al haber unas aguas tan cristalinas y limpias.</p><br>\
+        <p>Tras llegar a la isla donde se escucharon los estruendos y la polvareda, Tom se encontró con otra carta\
+         sobre una piedra en la arena de la orilla. Se la dio a Daniela y la leyó. Ponía lo siguiente:\
+        <p style='padding-left:20px'><em><b>Por Dios y la Libertad camaradas, este lugar será testigo de la creación\
+         de nuestro bastión y juntos seremos la unión de piratas más temida de todoslos mares. Esta unión solo es el\
+        comienzo de algo mas grande, el dominio total de todos los mares y con ello, seremos recordados por siempre.</b></em></p>\
+        <p style='padding-left:20px'><em><b>¡Por Libertalia!</b></em></p><br>\
+        <p style='padding-left:20px'><em><b>Thomas Tew y Henry Avery</b></em></p><br>\
+        <p>Esta carta ya tenía buenos presentimientos. A Daniela y Tom se le iluminaron los ojos. Tras este subidón,\
+         Daniela tiene que decidir entre <a href='adentrarse'> adentrarse en la isla </a> o <a href='buscar'> buscar más\
+        en la orilla de la isla </a> por si había algo.</p>"
+      ),
+
+    adentrarse: new undum.SimpleSituation(
+        "<h1>Ida, ¿Libertalia?</h1>\
+        <p>Daniela, dejándose llevar por la emoción, se adentró en la isla mientras Tom la seguía como podía.\
+         Parece que a unos le pesan más la edad que a otros.</p><br>\
+         <p>Daniela seguía leyendo una y otra vez la carta y se dio cuenta de algo que había pasado por alto debido\
+          a la emoción del momento. La carta tenía en una de las esquinas, en la parte de atrás, un pequeño mapa sobre\
+          un lugar con varias casas. Tenia que ser Libertalia ya que es donde aparte de guardar todo el tesoro, vivían\
+          todos los piratas junto con sus familias. Tom no daba crédito ante tal hallazgo, aunque tenía un mal\
+          presentimiento. A los 10 minutos de estar andando entre árboles y frondosos arbustos, el camino se dividía\
+          en 2. El mapa no arrojaba pista en este sentido. Sólo salía un montón de casas junto con unas calaveras al\
+          lado, luego Daniela y Tom estaban dudosos de qué camino escoger. Se podía divisar que el primer camino era\
+          algo más oscuro y con un ruido algo extraño, aunque el camino parecía bastante seguro a priori. El segundo\
+          camino parecía algo más iluminado pero también algo abandonado, aunque se podía pasar por él sin problemas.\
+          En este segundo camino, al lado del camino Daniela pudo ver como una calavera parecida al mapa de la playa,\
+          aunque esto no aseguraba nada a la cazatesoros. Daniela tiene que decidir entre <a href='camino1'>  ir por el primer\
+          camino </a> o <a href='camino2'> por el segundo camino.</a> <img src='./media/img/caminos.jpeg' height='320' width='500'></p>"
+
+        ),
+
+        camino1: new undum.SimpleSituation(
+        "<h1>El comienzo del fin</h1>\
+        <p>La cazatesoros y el explorador decidieron seguir por el camino más oscuro que, aunque seguro, emanaba\
+         un ruido muy fuerte, algo que no transmitía confianza. Siguieron caminando tranquilos, bueno casi tranquilos\
+         ya que Tom se ha topado con 2 arañas colgadas de una rama de un árbol y ha gritado como si no hubiera mañana.\
+         Al cabo de un rato, dieron con el ruido que los tenía acongojados. Resulta que era una cascada enorme y el\
+         agua chocando con el agua hacía que el ruido fuera ensordecedor. Se quedaron mucho más tranquilos en todos\
+         los aspectos ya que divisaron unas construcciones justo en frente del camino. Daniela y Tom pasaron el puente\
+         que había para poder pasar la cascada y fueron corriendo hacia esas construcciones. Si, era Libertalia.\
+         No había lugar a fallos ya que la señal del mapa solo podía ser lo que tenían ante sus ojos. Cuando llegaron\
+         a la entrada, algo descuidada y en un principio inaccesible, descubrieron la pista definitiva, el cartel con\
+         una calavera igual a la de la carta de la playa. Todo salió a pedir boca hasta ese punto. Daniela y Tom no\
+         tienen mas elección que <a href='entrar' > entrar a Libertalia.</a><img src='./media/img/cartel.jpeg' height='320' width='500'></p>"
+
+
+
+
+    ),
+
+
+
+
+
+
+
+
+
 };
 
 // ---------------------------------------------------------------------------
