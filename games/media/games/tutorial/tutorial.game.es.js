@@ -105,8 +105,8 @@ undum.game.situations = {
       a Andrew la oferta de Libertalia ya que sería demasiado dolor para él y no quería perderlo.\
       Desecha la oferta y con ello deja el mundo de los piratas a un lado. Tal vez, algún día,\
       Andrew sepa la verdad, pero mientras tanto, será feliz en la ignorancia y sin preocuparse\
-      por si Daniela sigue viva.</p><br>\
-      <img src='./media/img/fin.jpg' height='320' width='500'>"
+      por si Daniela sigue viva. <b>FIN</b></p><br>\
+      <img src='./media/img/suerte.jpeg' height='320' width='500'>"
     ),
 
     desayuno: new undum.SimpleSituation(
@@ -126,7 +126,7 @@ undum.game.situations = {
       en una isla de Madagascar, totalmente vacía a priori. La carta decía que Terry Jones, el enemigo\
       por excelencia de Daniela, quería ir allí para ver qué pasó y de paso poder recuperar\
       el tesoro de la colonia pirata más grande que hubo. Daniela, tras ver a Andrew tan mal,\
-      tiene que decidir entre ir <a href='explorar'>a Libertalia</a> o <a href='nojugarsela'>no ir.</a></p>"
+      tiene que decidir entre <a href='explorar'>ir a Libertalia</a> o <a href='nojugarsela'>no ir.</a></p>"
     ),
 
     nojugarsela:new undum.SimpleSituation(
@@ -136,8 +136,8 @@ undum.game.situations = {
       la oferta propuesta y tranquilizó a Andrew. Libertalia y su misterio es algo difícil de\
       rechazar, pero estar viva y poder contarlo y vivir felizmente al lado de los tuyos no tiene\
       precio así que todo terminó de la mejor manera para ellos, pero mal para la resolución del\
-      mayor misterio pirata de la historia.</p><br>\
-      <img src='./media/img/fin.jpg' height='320' width='500'>"
+      mayor misterio pirata de la historia. <b>FIN</b></p><br>\
+      <img src='./media/img/salvarse.jpeg' height='600' width='500'>"
     ),
 
     explorar: new undum.SimpleSituation(
