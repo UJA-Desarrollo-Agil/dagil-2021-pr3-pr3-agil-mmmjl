@@ -102,11 +102,12 @@ undum.game.situations = {
       "<h1>El no tentar a la suerte</h1>\
       <p>Daniela sabía que ahora mismo tenía estabilidad y una vida feliz pese a no cumplir\
       su mejor deseo y valoró las veces que estuvo a punto de morir, así que decidió ocultarle\
-      a Andrew la oferta de Libertalia ya que sería demasiado dolor para él y no quería perderlo.\
-      Desecha la oferta y con ello deja el mundo de los piratas a un lado. Tal vez, algún día,\
+      a Andrew la oferta de Libertalia ya que sería demasiado dolor para él y no quería perderlo.</p><br>\
+      <img src='./media/img/suerte.jpeg' height='320' width='500'>\
+      <p>Desecha la oferta y con ello deja el mundo de los piratas a un lado. Tal vez, algún día,\
       Andrew sepa la verdad, pero mientras tanto, será feliz en la ignorancia y sin preocuparse\
-      por si Daniela sigue viva. <b>FIN</b></p><br>\
-      <img src='./media/img/suerte.jpeg' height='320' width='500'>"
+      por si Daniela sigue viva.</p><br>\
+      <b><center>🏴‍☠️ Fin 🏴‍☠️</center></b></p>"
     ),
 
     desayuno: new undum.SimpleSituation(
@@ -132,12 +133,13 @@ undum.game.situations = {
     nojugarsela:new undum.SimpleSituation(
       "<h1>Salvarse de lo desconocido</h1>\
       <p>Daniela veía como la impotencia se había apoderado de Andrew que veía como su mujer\
-      podría no volver nunca de aquellas islas. Daniela no quería que él sufriera así que declinó\
-      la oferta propuesta y tranquilizó a Andrew. Libertalia y su misterio es algo difícil de\
-      rechazar, pero estar viva y poder contarlo y vivir felizmente al lado de los tuyos no tiene\
-      precio así que todo terminó de la mejor manera para ellos, pero mal para la resolución del\
-      mayor misterio pirata de la historia. <b>FIN</b></p><br>\
-      <img src='./media/img/salvarse.jpeg' height='600' width='500'>"
+      podría no volver nunca de aquellas islas.</p><br>\
+      <img src='./media/img/salvarse.jpeg' height='600' width='500'>\
+      <p>Daniela no quería que él sufriera así que declinó la oferta propuesta y tranquilizó a Andrew.\
+      Libertalia y su misterio es algo difícil de rechazar, pero estar viva y poder contarlo y vivir felizmente\
+      al lado de los tuyos no tiene precio así que todo terminó de la mejor manera para ellos, pero mal para la resolución del\
+      mayor misterio pirata de la historia.</p><br>\
+      <b><center>🏴‍☠️ Fin 🏴‍☠️</center></b></p>"
     ),
 
     explorar: new undum.SimpleSituation(
