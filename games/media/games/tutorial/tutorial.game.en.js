@@ -135,7 +135,7 @@ undum.game.situations = {
       ),
 
     adentrarse: new undum.SimpleSituation(
-        "<h1>Ida, ¿Libertalia?</h1>\
+        "<h1>¿Libertalia?</h1>\
         <p>Daniela, dejándose llevar por la emoción, se adentró en la isla mientras Tom la seguía como podía.\
          Parece que a unos le pesan más la edad que a otros.</p><br>\
          <p>Daniela seguía leyendo una y otra vez la carta y se dio cuenta de algo que había pasado por alto debido\
@@ -167,21 +167,42 @@ undum.game.situations = {
          No había lugar a fallos ya que la señal del mapa solo podía ser lo que tenían ante sus ojos. Cuando llegaron\
          a la entrada, algo descuidada y en un principio inaccesible, descubrieron la pista definitiva, el cartel con\
          una calavera igual a la de la carta de la playa. Todo salió a pedir boca hasta ese punto. Daniela y Tom no\
-         tienen mas elección que <a href='entrar'>entrar a Libertalia.</a><br><br>\
+         tienen mas elección que <a href='entrarenlibertalia'>entrar a Libertalia.</a><br><br>\
          <center><img src='./media/img/cartel.jpg' height='500' width='320'></center></p>"
+  ),
 
+    entrarenlibertalia: new undum.SimpleSituation(
+      "<h1>Admirando la leyenda</h1>\
+      <p>Daniela y Tom quedaron perplejos ante tal construcción. Todo era enorme a la vez que bonito, aunque la naturaleza se hubiera apoderado del lugar.\
+      El destino estaba claro: el edificio más grande. ¿El por qué? La leyenda contaba que dentro de un gran lugar se encontraría un gran alijo de oro y plata\
+      así que el destino estaba claro.Mientras que Daniela y Tom iban hacia ese destino, no paraban de ver como todo estaba desordenado, como si hubiera pasado\
+      un ciclón por aquella isla. Llegaron al lugar en cuestión. Un cartel ponía al lado “Biblioteca” aunque también pintado en rojo las palabras “ladrones” a un lado del cartel.\
+      Daniela no tiene más elección que.<a href='biblioteca'>entrar a la biblioteca.</a><br><br>\
+      <center><img src='./media/img/libertalia.jpeg' height='500' width='320'></center></p>"
+),
 
+  camino2: new undum.SimpleSituation(
+    "<h1>Una trampa hábil</h1>\
+    <p>Tanto Daniela como Tom siguieron por el segundo camino. Este camino era agradable a la vista ya que se veían todos los riscos y salientes de las montañas contiguas.\
+    El camino se empezó a estrechar hasta tal punto de que uno tenía que ir detrás del otro. Tras pasar esa parte del camino, Daniela volvió a ver esa calavera que está tanto\
+    en la carta como al principio de este camino. Junto a él otra carta, aunque esta, comparada con la de la playa, bastante peor conservada. La carta decía lo siguiente:</p>\
+    <p style='padding-left:20px'><em><b>Necios y sucios aquellos atrevidos que intentan seguir los pasos de la piratería. El noble arte del engaño está al alcance de pocos y\
+    no todos poseen ese don. Sufrir la ira y el castigo de Libertalia será lo único que veréis de nuestro hogar. Quizás así aprendáis que nadie puede con nuestra hermandad.\
+    ¡Por Dios y la Libertad! Fundadores de Libertalia</b></em></p>\
+    <p>Esto ya no pintaba tan bien. Tom empezó a temblar y Daniela se percató de las decenas de cadáveres que se apilaban a los lados del camino. Comenzaron a correr camino\
+    hacia delante por lo que pudiera pasar cuando de repente, la tierra se abrió ante ellos y cayeron por uno de los lados. Daniela consiguió agarrarse al único saliente que había\
+    mientras que Tom estaba agarrado a Daniela. Daniela solo tenía 2 opciones: usar su fuerza para poder subir al camino mientras que Tom podría ponerse en el saliente y ya ayudarlo\
+    o bien usar la cuerda que tanto le había servido otras veces para balancearse. Con ella podía enganchar una piedra enorme que estaba en el otro lado del camino e ir subiendo poco a poco,\
+    pero era más arriesgada ya que tiene que maniobrar para poder hacer el lazo. Daniela tiene que elegir entre: <a href='usarfueza'>usar su fuerza.</a><br><br> o <a href='usarcuerda'> usar la cuerda.</a><br><br></p>\
+    <center><img src='./media/img/camino2.jpg' height='500' width='320'></center></p>"
+  ),
 
-
-    ),
-
-
-
-
-
-
-
-
+    buscar: new undum.SimpleSituation(
+    "<h1>Busca y rebusca</h1>\
+    <p>Daniela se decidió a seguir buscando por la orilla. Podía haber algo que le podría dar más pistas sobre Libertalia y los piratas fundadores Thomas Tew y Henry Avery. Por desgracia no hubo nada\
+    más por toda la orilla así que no había mas remedio que. <a href='adentrarse'>adentrarse en la isla.</a><br><br>\
+    <center><img src='./media/img/orilla.jpeg' height='500' width='320'></center></p>"
+),
 
 };
 
