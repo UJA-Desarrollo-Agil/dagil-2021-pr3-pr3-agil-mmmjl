@@ -164,9 +164,9 @@ Nos comprometemos a ponernos con el Sprint siguiente con menos retraso que este 
 
 Como se puede compribar en la captura, todas las historias de uso programadas para este Sprint se han realizado satisfactoriamente. En la captura también se puede ver que miembro del grupo ha realizado la tarea.
 
-![Imagen28](./games/media/img/captura1.png)
+![Imagen28](./games/media/img/Captura1.png)
 
-![Imagen29](./games/media/img/captura2.png)
+![Imagen29](./games/media/img/Captura2.png)
 
 
 ### Captura de pantalla de las HU del Product Backlog una vez acabado el Sprint
