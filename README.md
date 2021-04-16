@@ -160,10 +160,13 @@ Hemos tenido pocos fallos y de carácter leve. Se puede mejorar los plazos para 
 
 Nos comprometemos a ponernos con el Sprint siguiente con menos retraso que este Sprint para así aprovechar mejor el tiempo y mejorar la organización de las tareas.
 
+### Captura de pantalla de las tareas del Sprint Planning al final del sprint
 
+Como se puede compribar en la captura, todas las historias de uso programadas para este Sprint se han realizado satisfactoriamente. En la captura también se puede ver que miembro del grupo ha realizado la tarea.
 
+![Imagen28](./games/media/img/captura1.png)
 
-
+![Imagen29](./games/media/img/captura2.png)
 
 
 ### Captura de pantalla de las HU del Product Backlog una vez acabado el Sprint
