@@ -10,7 +10,7 @@
 
 
 
-# Sprint 0 
+# Sprint 0
 
 ## Descripción del juego
 
@@ -121,3 +121,21 @@ En este apartado hemos descompuesto aquellas historias de uso que creiamos que s
 Se ha quitado la historia de uso sobre la recogida de objetos a lo largo del juego. El motivo es simplificar los sprints y no agobiarnos con cada entrega. A continuación se verá la captura de Trello con la modificación.
 
 ![Imagen21](./games/media/img/ActualizacionSprint1.png)
+
+
+
+### Conclusiones obtenidas en la Sprint Review
+
+Las conclusiones obtenidas tras haber hecho el Sprint Review entre todos han sido las siguientes:
+
+- Se han hecho todas las historias de uso que se propusieron en el Sprint Backlog, sin dejar ninguna incompleta.
+
+- En general, la inclusión de situaciones por parte de todos los miembros del equipo ha sido satisfactoria y no ha surgido ningún problema grave. Los pocos errores obtenidos han sido algún fallo al añadir situaciones en tutorial.game.es.js y al añadir las extensiones de las imágenes. Lo solucionamos revisando el texto añadido y corrigiendo los errores de escritura.
+
+- Como se puede comprobar, el incremento es evidente, ya que empezamos desde cero y en este Sprint acabamos con el juego medio terminado.
+
+- En el siguiente Sprint seguiremos con la otra mitad del juego, añadiendo las situaciones restantes y dandole nuevas funcionalidades como exigen las historias de uso que faltan.
+
+- Las historias de uso que quedan, las cuáles aportan más valor, son el poder recoger objetos o también que las situaciones siguientes compliquen la historia inicial.
+
+- En cuanto a los plazos, hemos ido bien de tiempo y no nos hemos visto apurados.
