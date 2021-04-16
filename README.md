@@ -139,3 +139,19 @@ Las conclusiones obtenidas tras haber hecho el Sprint Review entre todos han sid
 - Las historias de uso que quedan, las cuáles aportan más valor, son el poder recoger objetos o también que las situaciones siguientes compliquen la historia inicial.
 
 - En cuanto a los plazos, hemos ido bien de tiempo y no nos hemos visto apurados.
+
+
+
+### Conclusiones obtenidas en la Sprint Retrospective
+
+#### ¿Qué ha ido bien?
+
+En general, las tareas repartidas entre todos los miembros del grupo y las tareas comunes han sido satisfactorias. Como hemos abordado en el Sprint Review, los fallos han sido mínimos y muy leves por lo que nuestra evaluación en este Sprint ha sido muy positiva.
+
+#### ¿Qué se puede mojorar?
+
+Hemos tenido pocos fallos y de carácter leve. Se puede mejorar los plazos para hacer el Sprint ya que empezamos con retraso y además tuvimos que debatir la historia del juego y cómo nos íbamos a organizar.
+
+#### ¿Qué nos comprometemos a mejorar para el próximo Sprint?
+
+Nos comprometemos a ponernos con el Sprint siguiente con menos retraso que este Sprint para así aprovechar mejor el tiempo y mejorar la organización de las tareas.
