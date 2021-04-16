@@ -142,6 +142,10 @@ Las conclusiones obtenidas tras haber hecho el Sprint Review entre todos han sid
 
 
 
+
+
+
+
 ### Conclusiones obtenidas en la Sprint Retrospective
 
 #### ¿Qué ha ido bien?
@@ -155,3 +159,23 @@ Hemos tenido pocos fallos y de carácter leve. Se puede mejorar los plazos para 
 #### ¿Qué nos comprometemos a mejorar para el próximo Sprint?
 
 Nos comprometemos a ponernos con el Sprint siguiente con menos retraso que este Sprint para así aprovechar mejor el tiempo y mejorar la organización de las tareas.
+
+
+
+
+
+
+
+### Captura de pantalla de las HU del Product Backlog una vez acabado el Sprint
+
+![Imagen22](./games/media/img/finals1.png)
+
+![Imagen23](./games/media/img/finals2.png)
+
+![Imagen24](./games/media/img/finals3.png)
+
+![Imagen25](./games/media/img/finals4.png)
+
+![Imagen26](./games/media/img/finals5.png)
+
+![Imagen27](./games/media/img/finals6.png)
