@@ -152,7 +152,7 @@ Las conclusiones obtenidas tras haber hecho el Sprint Review entre todos han sid
 
 En general, las tareas repartidas entre todos los miembros del grupo y las tareas comunes han sido satisfactorias. Como hemos abordado en el Sprint Review, los fallos han sido mínimos y muy leves por lo que nuestra evaluación en este Sprint ha sido muy positiva.
 
-#### ¿Qué se puede mojorar?
+#### ¿Qué se puede mejorar?
 
 Hemos tenido pocos fallos y de carácter leve. Se puede mejorar los plazos para hacer el Sprint ya que empezamos con retraso y además tuvimos que debatir la historia del juego y cómo nos íbamos a organizar.
 
@@ -162,7 +162,7 @@ Nos comprometemos a ponernos con el Sprint siguiente con menos retraso que este 
 
 ### Captura de pantalla de las tareas del Sprint Planning al final del sprint
 
-Como se puede compribar en la captura, todas las historias de uso programadas para este Sprint se han realizado satisfactoriamente. En la captura también se puede ver que miembro del grupo ha realizado la tarea.
+Como se puede comprobar en la captura, todas las historias de uso programadas para este Sprint se han realizado satisfactoriamente. En la captura también se puede ver que miembro del grupo ha realizado la tarea.
 
 ![Imagen28](./games/media/img/Captura1.png)
 
