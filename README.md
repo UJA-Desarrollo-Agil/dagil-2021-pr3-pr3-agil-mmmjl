@@ -211,8 +211,8 @@ Para este sprint en un primer momento, antes del Product Backlog Refinement, ten
 Para este primer sprint haremos 12 situaciones de un total de 24 situaciones que tiene la historia del juego.
 
 
-![Imagen30](./games/media/img/Sprint2.1.png)
+![Imagen30](./games/media/img/Sprint2a.png)
 
-![Imagen31](./games/media/img/Sprint2.2.png)
+![Imagen31](./games/media/img/Sprint2b.png)
 
-![Imagen32](./games/media/img/Sprint2.3.png)
+![Imagen32](./games/media/img/Sprint2c.png)
