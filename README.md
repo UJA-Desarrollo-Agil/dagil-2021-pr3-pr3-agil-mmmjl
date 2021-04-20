@@ -182,3 +182,37 @@ Como se puede comprobar en la captura, todas las historias de uso programadas pa
 ![Imagen26](./games/media/img/finals5.png)
 
 ![Imagen27](./games/media/img/finals6.png)
+
+
+
+
+
+# Sprint 2
+
+## Trello
+
+### Captura de Pantalla sobre Sprint Backlog y descomposición de tareas
+
+Para este sprint en un primer momento, antes del Product Backlog Refinement, teniamos que hacer 6 historias de uso que eran las siguientes:
+
+* El jugador podrá recoger objetos a lo largo del juego. Hemos elegido esta ya que para avanzar en la historia y conseguir el tesoro tenemos que recoger objetos.
+
+* Si una nueva versión del juego (las entregas en cada sprint) incluye nuevas situaciones, estas deben o bien complicar la misión inicial o bien añadir una nueva misión al juego. Hemos elegido esta para complicar al usuario la historia y que sus elecciones tengan un mayor peso en el desenlace.
+
+* El jugador debe poder saber cuántos puntos lleva en la partida. Los puntos pueden ser el porcentaje de aventura completada y/o la cantidad de monedas/estrellas/cualquier_ otro_trofeo recogidas y/o cualquier otro parámetro que permita cuantificar su progreso en el juego en distintas partidas. Hemos elegido esta para cuantificar la cantidad de tesoro que el usuario consigue. Para conseguir el 100% del progreso de juego se deberá conseguir el tesoro en su totalidad. Puede ser que haya tesoro escondido.
+
+* En al menos una situación (de las existentes o incluyendo alguna/s nueva/s), se podrá establecer un diálogo con otro personaje del juego (con preguntas y respuestas predefinidas, por supuesto, dado que serán acciones del juego; no se trata de implementar un chatbot). Hemos elegido esta para añadirle a la historia un toque de emoción extra y hacer que el usuario pueda decidir sobre las emociones de Daniela.
+
+* El jugador podrá usar objetos para resolver puzzles. Hemos elegido esta ya que necesitamos de algunos objetos para seguir avanzando o completar la historia. Sin ellos, puede que no podamos avanzar.
+
+* El jugador podrá usar la acción “mirar detalladamente” (u otra similar) para poder descubrir nuevas cosas en las situaciones que no se le hayan descrito a primera vista. Hemos elegido esta ya que el tesoro puede estar (o no) oculto en alguna parte de la historia.
+
+
+Para este primer sprint haremos 12 situaciones de un total de 24 situaciones que tiene la historia del juego.
+
+
+![Imagen30](./games/media/img/Sprint2.1.png)
+
+![Imagen31](./games/media/img/Sprint2.2.png)
+
+![Imagen32](./games/media/img/Sprint2.3.png)
