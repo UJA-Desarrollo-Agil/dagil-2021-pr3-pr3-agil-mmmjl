@@ -216,3 +216,9 @@ Para este primer sprint haremos 12 situaciones de un total de 24 situaciones que
 ![Imagen31](./games/media/img/Sprint2b.png)
 
 ![Imagen32](./games/media/img/Sprint2c.png)
+
+### Capturas de Pantalla de Product Backlog y Sprint Backlog tras hacer Product Backlog Refinement
+
+Tras hacer el Product Backlog Refinement y ver que había nuevas historias de uso, las metimos en el Product Backlog y les dimos valor. Una vez hecho eso, esta vez no hemos añadido ninguna al sprint existente. A continuacion se verá una captura de pantalla con las tres historias de uso nuevas en el Product Backlog:
+
+![Imagen33](./games/media/img/PBRSprint2.png)
