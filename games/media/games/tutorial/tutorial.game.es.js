@@ -186,8 +186,8 @@ undum.game.situations = {
       camino parecía algo más iluminado pero también algo abandonado, aunque se podía pasar por él sin problemas.\
       En este segundo camino, al lado del camino Daniela pudo ver como una calavera parecida al mapa de la playa,\
       aunque esto no aseguraba nada a la cazatesoros. Daniela tiene que decidir entre <a href='camino1'>  ir por el primer\
-      camino </a> o <a href='camino2'> por el segundo camino.</a><br>\
-      <img src='./media/img/caminos.jpg' height='320' width='500'></p>"
+      camino </a> o <a href='camino2'> por el segundo camino.</a><br></p>\
+      <img src='./media/img/caminos.jpg' height='320' width='500'>"
     ),
 
     camino1: new undum.SimpleSituation(
@@ -214,6 +214,72 @@ undum.game.situations = {
       un ciclón por aquella isla. Llegaron al lugar en cuestión. Un cartel ponía al lado “Biblioteca” aunque también pintado en rojo las palabras “ladrones” a un lado del cartel.\
       Daniela no tiene más elección que.<a href='biblioteca'>entrar a la biblioteca.</a><br><br>\
       <center><img src='./media/img/libertalia.png' height='320' width='500'></center></p>"
+    ),
+
+    biblioteca: new undum.SimpleSituation(
+      "<h1>Un lugar revelador</h1>\
+      <p>Una vez dentro, vieron algo inusual. Un montón de cadáveres a los lados del lugar a la vez que la mayoría de las estanterías tiradas y hechas añicos\
+      debido a los sucesos que podían haber pasado allí. En las paredes de la biblioteca se veían los cuadros de todos los piratas que pertenecían a Libertalia.\
+      Había algo raro y es que la palabra “ladrón” seguía pintada en rojo en solo 2 piratas: Thomas Tew y Henry Avery, los primeros fundadores de Libertalia. También\
+      había muchos carteles donde se veía escrito “¡nuestro oro ha sido robado!”. Daniela intuyó que estos 2 piratas robaron todo el tesoro a los demás piratas y con\
+      ello a los familiares de estos.</p><br>\
+      <img src='./media/img/ladrones.jpg' height='320' width='500'>\
+      <p>La biblioteca daba a otra sala que sería interesante mirar. Daniela decide entre <a href='salatraicion'>ir a la sala</a> o puede <a class='once' href='./mirardetalle'><em>mirar detalladamente</em></a>\
+      para ver si hay algo más.</p>",
+      {
+        actions: {
+          'mirardetalle': function(character, system, action){
+            system.setQuality("Plata", character.qualities.Plata+10000);
+            system.write("<p>Daniela decide quedarse un poco más en la biblioteca antes de pasar a la sala y que sorpresa que encuentra una bolsa de monedas\
+            de plata bajo los escombros de una estantería. Esto solo podía significar que el tesoro no podía estar muy lejos y que la leyenda era cierta, el\
+            tesoro estuvo ahí.</p>")
+          }
+        }
+      }
+    ),
+
+    salatraicion: new undum.SimpleSituation(
+      "<h1>La gran traición</h1>\
+      <p>Al entrar en esta sala, la revelación que había ante los ojos de ambos era increíble. Se veía una mesa enorme donde, alrededor de ella, estaban un\
+      montón de esqueletos sentados en sillas. Se veía que, al lado de cada uno, había una tarjeta con signos piratas y una copa, lo que confirmaba que eran\
+      ellos. Ahora se entendía más las pintadas en la biblioteca. Tew y Avery mataron a todos los piratas envenenándolos, de forma que el tesoro que estaba en\
+      poder de los 12 piratas que conformaban la colonia pasó a formar parte de sólo 2 piratas, lo que los hacía más ricos de lo que eran antes. En la sala\
+      había pocas cosas a parte de aquella escena. Daniela tiene la posibilidad de coger <a class='once' href='./antorcha'>una antorcha</a> bien conservada pese al paso del \
+      tiempo, <a class='once' href='./candelabro'>un candelabro sin velas</a> y <a class='once' href='./parche'>un parche pirata</a>.</p><br>\
+      <img src='./media/img/traicion.png' height='320' width='500'>\
+      <p>Tras ver todo, Daniela divisa una gruta entre la pared. Tampoco había mucho mas que mirar así que lo mejor era seguir por esa gruta. Era pequeña pero\
+      suficientemente grande para que entrasen los 2 aventureros. Daniela solo puede <a href='gruta'>entrar en la gruta.</p>",
+      {
+        actions: {
+          'antorcha': function(character, system, action){
+            system.setQuality("Antorcha",true);
+            system.setCharacterText("<p>Esta antorcha será útil si pasamos por algún sitio oscuro así que no viene nada mal.</p>")
+          },
+          
+          'candelabro': function(character, system, action){
+            system.setCharacterText("<p>Bueno, un candelabro sin velas solo sirve como decoración en un mueble de estilo vintage, por lo demás poco uso tiene.</p>")
+          },
+
+          'parche': function(character, system, action){
+            system.setCharacterText("<p>Un parche pirata de alguno de los piratas sentados en esta mesa. Lo mismo tiene un gran valor entre coleccionistas. Es negro\
+            y con algo de polvo, pero te da un rollo bastante atrevido. Que tiemble Barbanegra.</p>")
+          }
+        }
+      }
+    ),
+
+    gruta: new undum.SimpleSituation(
+      "<h1>La gruta</h1>\
+      <p>Tras mirar aquella grotesca situación con todos los piratas muertos, nos adentramos en la gruta.</p><br>",
+      {
+        enter: function( character, system, from ){
+            if( character.qualities.Antorcha) {
+                system.doLink( "grutaantorcha" );
+            } else {
+                system.doLink( "grutanoantorcha");
+            }
+        }
+      }
     ),
 
     camino2: new undum.SimpleSituation(
