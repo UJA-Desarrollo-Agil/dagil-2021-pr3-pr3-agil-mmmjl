@@ -255,7 +255,7 @@ undum.game.situations = {
             system.setQuality("Antorcha",true);
             system.setCharacterText("<p>Esta antorcha será útil si pasamos por algún sitio oscuro así que no viene nada mal.</p>")
           },
-          
+
           'candelabro': function(character, system, action){
             system.setCharacterText("<p>Bueno, un candelabro sin velas solo sirve como decoración en un mueble de estilo vintage, por lo demás poco uso tiene.</p>")
           },
@@ -281,6 +281,98 @@ undum.game.situations = {
         }
       }
     ),
+
+    grutaantorcha: new undum.SimpleSituation(
+
+      "<p>Al entrar en la gruta hacía un frío gélido que hacía que empezaran a tiritar. Si a eso le sumabas la oscuridad en la que se sumergían Daniela y Tom complicaba\
+      aún más el viaje. La antorcha encontrada en la sala de la traición ayudaba bastante a dar luz y calor al trayecto. Tras terminar la gruta, antes de salir, Tom paró\
+      en seco a Daniela. La razón fue simple y es que Terry Jones, el enemigo de Daniela, se encontraba justo a unos metros de ellos. Guardaron la calma y dejaron que\
+      Terry se fuera dirección a un barco que estaba justo allí. Resulta que la gruta saba al mar de nuevo, a una salida de la isla. Al parecer el tesoro debe estar en\
+      ese barco.</p><br>\
+      <p>Tras no haber nadie más, salieron de la gruta y vieron el barco en su máximo esplendor. Una nota había tirada justo al salir de la gruta. La nota decía así:<br><br>\
+      <p style='padding-left:20px'><em><b> Solo unos pocos tienen reservado su sitio en el templo de los victoriosos. La confianza es síntoma de debilidad y no es un\
+      lazo fuerte. Sólo el interés mutuo y personal es un vínculo fiable, Henry. Te mandaré recuerdos desde Inglaterra, Avery.</b></em></p>\
+      <p style='padding-left:20px'><em><b>¡Por Libertalia!</b></em></p><br>\
+      <p style='padding-left:20px'><em><b>Thomas Tew</b></em></p><br>\
+      <p> Daniela lo tuvo claro: Tew traicionó a Avery y se quedó con el tesoro, pero no partió de ls isla puesto que su barco está aún aquí. Algo pasó y el secreto\
+      está en el barco. Daniela lo tenía claro, tenía que <a href='barco'>ir al barco.</a></p>"
+
+    ),
+
+    barco: new undum.SimpleSituation(
+      "<h1>El reencuentro</h1>\
+      <p>Daniela fue sola al barco. Tom no quería, pero sabía a la vez que ella es capaz de apañárselas con cualquiera, aunque hayan pasado los años. Tom se fue al\
+      otro lado de esa salida donde pudo ver una isla más pequeña ya que un plan de escape ayudaría a Daniela a salir e esa parte de la isla.</p><br>\
+      <p>Daniela entró en el barco y, tras una puerta de madera medio tirada, se encontraba Terry mirando de cerca el tesoro de Libertalia al lado de 2 esqueletos\
+      con 2 espadas clavadas en sus cuerpos ya convertidos en polvo. Eran Tew y Avery. Henry evitó que se marchara a Inglaterra con el tesoro y ambos lucharon\
+      hasta morir en ese navío. El tesoro estaba ahí: 100.000 monedas de oro y 40.000 monedas de plata.</p><br>\
+      <p>Terry miró con asombro a Daniela y empezaron una conversación:</p><br>\
+      <p>  -Terry: Bueno, bueno, bueno que tenemos aquí. Querida señorita Colby, encantado de verla de nuevo en una aventura. ¿Qué te trae por aquí? Juraría que\
+       estabas muerta.</p><br>\
+       <p>Daniela tiene la opción de <a href='ironicamente'>responder irónicamente</a> o <a href='desafiante'> responder desafiante.</a></p>"
+
+     ),
+
+     ironicamente: new undum.SimpleSituation(
+       "<p>  -Daniela: ¿Qué tal Señorito Jones? ¿Jugando a los tesoros de nuevo? ¿Con la edad que tienes no deberías estar ya retirado de esta vida?.</p><br>\
+       <p> -Terry: A eso voy, a retirarme llevándome este tesoro. Ahora aparta o acabarás como estos 2 piratas.</p><br>\
+       <p>  Daniela tiene la opción de <a href='ironicamente2'> responder irónicamente</a> o <a href='seriamente'> responder seriamente </a>.</p>"
+
+     ),
+
+     ironicamente2: new undum.SimpleSituation(
+       "<p>  -Daniela: Me parece a mi que no te vas a retirar tan fácilmente, “amigo”.</p><br>\
+       <p> -Terry: En ese caso solo queda luchar vieja amiga. </p><br>\
+       <p> Daniela solo puede <a href='luchar'> luchar </a>.</p>"
+
+
+     ),
+
+     seriamente: new undum.SimpleSituation(
+       "<p> -Daniela: Se acabaron las bromas Terry, vas a pagar por todo lo que me hiciste y has hecho a Libertalia.</p><br>\
+       <p> -Terry: Que pena, vas a morir en un sitio en el que nadie va a escuchar tus gritos. Ahora si que no te salvas amiga mia.</p><br>\
+       <p> Daniela solo puede <a href='luchar'> luchar </a>.</p>"
+
+     ),
+
+
+
+     luchar: new undum.SimpleSituation(
+       "<h1>El último baile</h1>\
+       <p>Tras esa conversación, Terry sacó la espada del esqueleto de Tew y fue tras Daniela. Daniela esquivó el primer ataque y tiene la\
+        opción de <a class='once' href='./espada'>coger la espada de Avery </a>. </p><br>\
+        <p> Tras eso, Daniela ya podría <a href='luchar2'> luchar</a>.</p>"
+        {
+          enter: function( character, system, from ){
+              if( character.qualities.Espada) {
+                  system.doLink( "luchaespada" );
+              } else {
+                  system.doLink( "luchanoespada");
+              }
+          }
+        }
+
+     ),
+
+     luchaespada: new undum.SimpleSituation(
+       "<p> Daniela ha cogido la espada y puede luchar. Tras varios ataques de ambos, Terry derriba a Daniela y tras unas risas, Terry se dispone a\
+        clavar la espada en el corazón de Daniela. Esta lo esquiva pasando por debajo de sus piernas y consigue clavarle su espada en el corazón a\
+         Terry, consiguiendo así su venganza. Tras esto, solo queda <a href='cogertesoro'>coger el tesoro completo y salir del barco </a>.</p>"
+
+
+     ),
+
+     entrarenlibertalia: new undum.SimpleSituation(
+       "<h1>El ingenio no siempre funciona</h1>\
+       <p>Pese a que Daniela estaba desentrenada en el ámbito de escalar y usar su fuerza bruta, la idea de la cuerda es algo más arriesgada,\
+        pero en zona de peligro, cualquier idea es válida. Daniela cogió con cuidado la cuerda para no tirar a Tom que se empezaba a cansar y\
+         consiguió lanzar un lazo hacia la roca enorme. Cuando empezó a tirar, la cuerda se partió en 2 y ambos acabaron cayendo al vacío. Fin </p>"
+
+     ),
+
+
+
+
 
     camino2: new undum.SimpleSituation(
       "<h1>Una trampa hábil</h1>\
