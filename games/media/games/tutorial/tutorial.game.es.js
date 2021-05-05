@@ -307,30 +307,30 @@ undum.game.situations = {
       con 2 espadas clavadas en sus cuerpos ya convertidos en polvo. Eran Tew y Avery. Henry evitó que se marchara a Inglaterra con el tesoro y ambos lucharon\
       hasta morir en ese navío. El tesoro estaba ahí: 100.000 monedas de oro y 40.000 monedas de plata.</p><br>\
       <p>Terry miró con asombro a Daniela y empezaron una conversación:</p><br>\
-      <p>  -Terry: Bueno, bueno, bueno que tenemos aquí. Querida señorita Colby, encantado de verla de nuevo en una aventura. ¿Qué te trae por aquí? Juraría que\
-       estabas muerta.</p><br>\
+      <p style='padding-left:20px'><b>-Terry: Bueno, bueno, bueno que tenemos aquí. Querida señorita Colby, encantado de verla de nuevo en una aventura. ¿Qué te trae por aquí? Juraría que\
+       estabas muerta.</b></p><br>\
        <p>Daniela tiene la opción de <a href='ironicamente'>responder irónicamente</a> o <a href='desafiante'> responder desafiante.</a></p>"
 
      ),
 
      ironicamente: new undum.SimpleSituation(
-       "<p>  -Daniela: ¿Qué tal Señorito Jones? ¿Jugando a los tesoros de nuevo? ¿Con la edad que tienes no deberías estar ya retirado de esta vida?.</p><br>\
-       <p> -Terry: A eso voy, a retirarme llevándome este tesoro. Ahora aparta o acabarás como estos 2 piratas.</p><br>\
-       <p>  Daniela tiene la opción de <a href='ironicamente2'> responder irónicamente</a> o <a href='seriamente'> responder seriamente </a>.</p>"
+       "<p style='padding-left:20px'><b>-Daniela: ¿Qué tal Señorito Jones? ¿Jugando a los tesoros de nuevo? ¿Con la edad que tienes no deberías estar ya retirado de esta vida?.</b></p><br>\
+       <p style='padding-left:20px'><b>-Terry: A eso voy, a retirarme llevándome este tesoro. Ahora aparta o acabarás como estos 2 piratas.</b></p><br>\
+       <p> Daniela tiene la opción de <a href='ironicamente2'> responder irónicamente</a> o <a href='seriamente'> responder seriamente </a>.</p>"
 
      ),
 
      ironicamente2: new undum.SimpleSituation(
-       "<p>  -Daniela: Me parece a mi que no te vas a retirar tan fácilmente, “amigo”.</p><br>\
-       <p> -Terry: En ese caso solo queda luchar vieja amiga. </p><br>\
+       "<p style='padding-left:20px'><b>-Daniela: Me parece a mi que no te vas a retirar tan fácilmente, “amigo”.</b></p><br>\
+       <p style='padding-left:20px'><b>-Terry: En ese caso solo queda luchar vieja amiga.</b></p><br>\
        <p> Daniela solo puede <a href='luchar'> luchar </a>.</p>"
 
 
      ),
 
      seriamente: new undum.SimpleSituation(
-       "<p> -Daniela: Se acabaron las bromas Terry, vas a pagar por todo lo que me hiciste y has hecho a Libertalia.</p><br>\
-       <p> -Terry: Que pena, vas a morir en un sitio en el que nadie va a escuchar tus gritos. Ahora si que no te salvas amiga mia.</p><br>\
+       "<p style='padding-left:20px'><b>-Daniela: Se acabaron las bromas Terry, vas a pagar por todo lo que me hiciste y has hecho a Libertalia.</b></p><br>\
+       <p style='padding-left:20px'><b>-Terry: Que pena, vas a morir en un sitio en el que nadie va a escuchar tus gritos. Ahora si que no te salvas amiga mia.</b></p><br>\
        <p> Daniela solo puede <a href='luchar'> luchar </a>.</p>"
 
      ),
@@ -340,38 +340,45 @@ undum.game.situations = {
      luchar: new undum.SimpleSituation(
        "<h1>El último baile</h1>\
        <p>Tras esa conversación, Terry sacó la espada del esqueleto de Tew y fue tras Daniela. Daniela esquivó el primer ataque y tiene la\
-        opción de <a class='once' href='./espada'>coger la espada de Avery </a>. </p><br>\
-        <p> Tras eso, Daniela ya podría <a href='luchar2'> luchar</a>.</p>"
+        opción de <a class='once' href='./espada'>coger la espada de Avery </a>. Tras eso, Daniela ya podría <a href='luchar2'>luchar</a>.</p><br>",
         {
-          enter: function( character, system, from ){
-              if( character.qualities.Espada) {
-                  system.doLink( "luchaespada" );
-              } else {
-                  system.doLink( "luchanoespada");
-              }
+          actions: {
+            'espada': function(character, system, action){
+              system.setQuality("Espada",true);
+            }
           }
         }
+     ),
 
+     luchar2: new undum.SimpleSituation(
+      "<h1>El fin del pasado</h1>\
+      <p>Tras todo lo ocurrido ahora y en el pasado, ahora solo queda terminar con esto de una vez por todas.</p><br>",
+      {
+        enter: function( character, system, from ){
+            if( character.qualities.Espada) {
+                system.doLink( "luchaespada" );
+            } else {
+                system.doLink( "luchanoespada");
+            }
+        }
+      }
      ),
 
      luchaespada: new undum.SimpleSituation(
-       "<p> Daniela ha cogido la espada y puede luchar. Tras varios ataques de ambos, Terry derriba a Daniela y tras unas risas, Terry se dispone a\
+       "<p>Daniela ha cogido la espada y puede luchar. Tras varios ataques de ambos, Terry derriba a Daniela y tras unas risas, Terry se dispone a\
         clavar la espada en el corazón de Daniela. Esta lo esquiva pasando por debajo de sus piernas y consigue clavarle su espada en el corazón a\
          Terry, consiguiendo así su venganza. Tras esto, solo queda <a href='cogertesoro'>coger el tesoro completo y salir del barco </a>.</p>"
 
 
      ),
 
-     entrarenlibertalia: new undum.SimpleSituation(
-       "<h1>El ingenio no siempre funciona</h1>\
-       <p>Pese a que Daniela estaba desentrenada en el ámbito de escalar y usar su fuerza bruta, la idea de la cuerda es algo más arriesgada,\
-        pero en zona de peligro, cualquier idea es válida. Daniela cogió con cuidado la cuerda para no tirar a Tom que se empezaba a cansar y\
-         consiguió lanzar un lazo hacia la roca enorme. Cuando empezó a tirar, la cuerda se partió en 2 y ambos acabaron cayendo al vacío. Fin </p>"
-
+     usarcuerda: new undum.SimpleSituation(
+      "<h1>El ingenio no siempre funciona</h1>\
+      <p>Pese a que Daniela estaba desentrenada en el ámbito de escalar y usar su fuerza bruta, la idea de la cuerda es algo más arriesgada,\
+      pero en zona de peligro, cualquier idea es válida. Daniela cogió con cuidado la cuerda para no tirar a Tom que se empezaba a cansar y\
+      consiguió lanzar un lazo hacia la roca enorme. Cuando empezó a tirar, la cuerda se partió en 2 y ambos acabaron cayendo al vacío. Fin </p><br>\
+      <b><center>🏴‍☠️ Fin 🏴‍☠️</center></b></p>"
      ),
-
-
-
 
 
     camino2: new undum.SimpleSituation(

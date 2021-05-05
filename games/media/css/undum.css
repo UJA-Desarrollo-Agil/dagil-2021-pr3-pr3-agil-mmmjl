@@ -117,9 +117,7 @@ hr {
     width: 1.1em;
     height: 2px;
 }
-p + p, p + img + p, p + hr + p {
-    text-indent: 1.6em;
-}
+
 #content h1 + p:first-line,
 #content h1 + img + p:first-line {
     font-weight: bold;
