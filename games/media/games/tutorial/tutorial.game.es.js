@@ -154,7 +154,7 @@ undum.game.situations = {
         estaba algo más viejo como era de esperar, pero su sonrisa tan contagiosa no se había ido.\
         Ambos se fueron a descansar a la casa que había alquilado Tom. Él siempre había sido tan\
         previsor que Daniela no se tenía que preocupar por nada. </p><br>\
-        <img src='./media/img/barcoisla.jpg' height='320' width='500'>\
+        <img src='./media/img/barcoisla.png' height='320' width='500'>\
         <p>Al día siguiente, se prepararon bien. Cuando se pusieron a punto, salieron dirección islas de\
         Libertalia. Todo era precioso, se divisaba todas las islas y el arrecife de corales se veía a la\
         perfección al haber unas aguas tan cristalinas y limpias.</p><br>\
@@ -187,7 +187,7 @@ undum.game.situations = {
       En este segundo camino, al lado del camino Daniela pudo ver como una calavera parecida al mapa de la playa,\
       aunque esto no aseguraba nada a la cazatesoros. Daniela tiene que decidir entre <a href='camino1'>  ir por el primer\
       camino </a> o <a href='camino2'> por el segundo camino.</a><br></p>\
-      <img src='./media/img/caminos.jpg' height='320' width='500'>"
+      <img src='./media/img/caminos.jpeg' height='320' width='500'>"
     ),
 
     camino1: new undum.SimpleSituation(
@@ -203,7 +203,7 @@ undum.game.situations = {
       a la entrada, algo descuidada y en un principio inaccesible, descubrieron la pista definitiva, el cartel con\
       una calavera igual a la de la carta de la playa. Todo salió a pedir boca hasta ese punto. Daniela y Tom no\
       tienen mas elección que <a href='entrarenlibertalia'>entrar a Libertalia.</a><br><br>\
-      <center><img src='./media/img/cartel.jpg' height='500' width='320'></center></p>"
+      <center><img src='./media/img/cartel.jpg' height='320' width='500'></center></p>"
     ),
 
     entrarenlibertalia: new undum.SimpleSituation(
@@ -283,8 +283,8 @@ undum.game.situations = {
     ),
 
     grutaantorcha: new undum.SimpleSituation(
-
-      "<p>Al entrar en la gruta hacía un frío gélido que hacía que empezaran a tiritar. Si a eso le sumabas la oscuridad en la que se sumergían Daniela y Tom complicaba\
+      "<img src='./media/img/antorcha.jpg' height='320' width='500'>\
+      <p>Al entrar en la gruta hacía un frío gélido que hacía que empezaran a tiritar. Si a eso le sumabas la oscuridad en la que se sumergían Daniela y Tom complicaba\
       aún más el viaje. La antorcha encontrada en la sala de la traición ayudaba bastante a dar luz y calor al trayecto. Tras terminar la gruta, antes de salir, Tom paró\
       en seco a Daniela. La razón fue simple y es que Terry Jones, el enemigo de Daniela, se encontraba justo a unos metros de ellos. Guardaron la calma y dejaron que\
       Terry se fuera dirección a un barco que estaba justo allí. Resulta que la gruta saba al mar de nuevo, a una salida de la isla. Al parecer el tesoro debe estar en\
@@ -340,7 +340,8 @@ undum.game.situations = {
      luchar: new undum.SimpleSituation(
        "<h1>El último baile</h1>\
        <p>Tras esa conversación, Terry sacó la espada del esqueleto de Tew y fue tras Daniela. Daniela esquivó el primer ataque y tiene la\
-        opción de <a class='once' href='./espada'>coger la espada de Avery </a>. Tras eso, Daniela ya podría <a href='luchar2'>luchar</a>.</p><br>",
+        opción de <a class='once' href='./espada'>coger la espada de Avery </a>. Tras eso, Daniela ya podría <a href='luchar2'>luchar</a>.</p><br>\
+        <img src='./media/img/espada.jpg' height='320' width='500'>",
         {
           actions: {
             'espada': function(character, system, action){
