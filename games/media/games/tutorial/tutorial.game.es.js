@@ -179,8 +179,8 @@ undum.game.situations = {
        Daniela, algo emocionada, se veía con un sentimiento descrito a través de sus gestos. Estaba feliz, feliz de estar\
        con Andrew y tenerlo como compañero de vida y feliz por seguir viva después de tantos sustos. La carta fue guardada \
        como un viejo anhelo en un baúl que tenía Daniela de las pocas reliquias que consiguió hace años.\
-       <b><center>Fin</center></b></p>"
-
+       <b><center>Fin</center></b></p>\
+       <img src='./media/img/brighton.jpeg' height='320' width='500'>"
     ),
 
 
@@ -415,6 +415,7 @@ undum.game.situations = {
         se fue, pero suspiró al saber que seguía viva. A él no le importaban esos logros, solo quería ser feliz con ella. Eso hizo que a Daniela se \
         le saltara una lágrima. Gracias al ingenio de Tom y la valentía de Daniela pudieron devolver el apellido Colby a la altura que se merecía y volver\
         sanos y salvos de la mayor aventura que habían vivido en sus vidas.</p>\
+        <center><img src='./media/img/derrota.jpeg' height='300' width='250'></center>\
         <b><center>Fin</center></b></p>"
 
      ),
