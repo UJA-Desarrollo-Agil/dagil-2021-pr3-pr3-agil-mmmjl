@@ -301,6 +301,7 @@ undum.game.situations = {
 
     barco: new undum.SimpleSituation(
       "<h1>El reencuentro</h1>\
+      <center><img src='./media/img/lucha.jpg' height='400' width='320'></center></p>\
       <p>Daniela fue sola al barco. Tom no quería, pero sabía a la vez que ella es capaz de apañárselas con cualquiera, aunque hayan pasado los años. Tom se fue al\
       otro lado de esa salida donde pudo ver una isla más pequeña ya que un plan de escape ayudaría a Daniela a salir e esa parte de la isla.</p><br>\
       <p>Daniela entró en el barco y, tras una puerta de madera medio tirada, se encontraba Terry mirando de cerca el tesoro de Libertalia al lado de 2 esqueletos\
