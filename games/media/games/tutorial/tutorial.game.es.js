@@ -170,6 +170,20 @@ undum.game.situations = {
         en la orilla de la isla </a> por si había algo.</p>"
     ),
 
+    quedarse: new undum.SimpleSituation(
+      "<h1>En Brighton como en ningún sitio</h1>\
+      <p> Daniela miró fijamente a los ojos de Andrew y dijo que su casa estaba allí, en Brighton,\
+       su ciudad desde pequeños. Habían hablado hasta de formar una familia juntos de aquí a algún tiempo\
+       y esa expedición ponía en peligro todo, incluso a Daniela. Ella decidió quedarse y, por lo tanto, \
+       Libertalia quedaría como un viejo deseo que tal vez nunca se descubra o en la que ella no fue relevante. \
+       Daniela, algo emocionada, se veía con un sentimiento descrito a través de sus gestos. Estaba feliz, feliz de estar\
+       con Andrew y tenerlo como compañero de vida y feliz por seguir viva después de tantos sustos. La carta fue guardada \
+       como un viejo anhelo en un baúl que tenía Daniela de las pocas reliquias que consiguió hace años.\
+       <b><center>Fin</center></b></p>"
+
+    ),
+
+
     adentrarse: new undum.SimpleSituation(
       "<h1>¿Libertalia?</h1>\
       <p>Daniela, dejándose llevar por la emoción, se adentró en la isla mientras Tom la seguía como podía.\
@@ -352,6 +366,7 @@ undum.game.situations = {
         }
      ),
 
+
      luchar2: new undum.SimpleSituation(
       "<h1>El fin del pasado</h1>\
       <p>Tras todo lo ocurrido ahora y en el pasado, ahora solo queda terminar con esto de una vez por todas.</p><br>",
@@ -371,6 +386,17 @@ undum.game.situations = {
         clavar la espada en el corazón de Daniela. Esta lo esquiva pasando por debajo de sus piernas y consigue clavarle su espada en el corazón a\
          Terry, consiguiendo así su venganza. Tras esto, solo queda <a href='cogertesoro'>coger el tesoro completo y salir del barco </a>.</p>"
 
+
+     ),
+     cogertesoro: new undum.SimpleSituation(
+       "<h1>Libertalia a tus pies</h1>\
+        <p>Daniela consigue salir del barco justo cuando la salida empieza a venirse abajo y por poco queda sepultada entre rocas. Consigue\
+        salir y ahí estaba Tom, temblando por ver a su amiga conseguir el sueño de su padre, el conseguir el mayor tesoro y descubrir la mayor\
+        leyenda pirata jamás contada.Por último, Daniela llamó a Andrew y tras unos instantes, Andrew se vino abajo. Llevaba malo desde que ella\
+        se fue, pero suspiró al saber que seguía viva. A él no le importaban esos logros, solo quería ser feliz con ella. Eso hizo que a Daniela se \
+        le saltara una lágrima. Gracias al ingenio de Tom y la valentía de Daniela pudieron devolver el apellido Colby a la altura que se merecía y volver\
+        sanos y salvos de la mayor aventura que habían vivido en sus vidas.</p>\
+        <b><center>Fin</center></b></p>"
 
      ),
 
@@ -399,6 +425,19 @@ undum.game.situations = {
       <center><img src='./media/img/camino2.jpg' height='500' width='320'></center></p>"
     ),
 
+    usarfueza: new undum.SimpleSituation(
+      "<h1>La fuerza como salvación</h1>\
+      <p>Daniela confió en su fuerza para desenterrar los enormes bloques y cajas de pequeños barcos que acababan en el puerto donde trabajaba para salir de aquella situación tan dramática.\
+       Tom no iba a aguantar mucho más y ella menos ya que aguanta el peso de él. Se mentalizó bien y le explicó a Tom que tenía que agarrarse al saliente donde ella está ahora cuando ella haga\
+       el impulso. Daniela sacó fuerza de donde no se podía, acordándose de Andrew y consiguió subir al camino. Mientras, Tom consiguió engancharse del saliente, pero solo con una mano. El grito \
+       instantáneo de Tom hizo que Daniela, tumbada en el camino totalmente cansada tras tremendo esfuerzo, se arrimó de nuevo al saliente y agarró a Tom y pudo subirlo de nuevo al camino. Acababan\
+       de salvar de nuevo su vida, como en los viejos tiempos. Estarían más atentos a partir de este momento.</p><br>\
+       <p>Ambos siguieron el camino con bastante cuidado de no caer en más trampas hasta que vieron,\
+       ahora sí, las casas de la carta de la playa. Ahí estaba Libertalia y no podían creérselo. La calavera puesta en un cartel era la prueba definitiva. Daniela no tenía más elección que\
+       <a href='entrarenlibertalia'>entrar en Libertalia.</a></p>"
+
+),
+
     buscar: new undum.SimpleSituation(
       "<h1>Busca y rebusca</h1>\
       <p>Daniela se decidió a seguir buscando por la orilla. Podía haber algo que le podría dar más pistas sobre Libertalia y los piratas fundadores Thomas Tew y Henry Avery. Por desgracia no hubo nada\
@@ -407,6 +446,7 @@ undum.game.situations = {
     ),
 
 };
+
 
 // ---------------------------------------------------------------------------
 /* The Id of the starting situation. */
