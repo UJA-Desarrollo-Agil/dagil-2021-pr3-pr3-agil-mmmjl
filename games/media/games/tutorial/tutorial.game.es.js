@@ -350,7 +350,26 @@ undum.game.situations = {
 
      ),
 
+     desafiante: new undum.SimpleSituation(
+       "<p style='padding-left:20px'><b>-Daniela: Muerto vas a estar tu por el daño que me hiciste Terry. Vas a pagarlo muy caro.</b></p><br>\
+       <p style='padding-left:20px'><b>-Terry: ¿Estás segura? Creo que no sabes a qué te enfrentas.</b></p><br>\
+       <p> Daniela tiene la opcion de <a href='desafiante2'> responder en tono burlesco</a> o <a href='desafiante'> responder desafiante</a>.</p>"
 
+     ),
+
+     burlesco: new undum.SimpleSituation(
+       "<p style='padding-left:20px'><b>-Daniela: Pobre Terry, con lo joven que eres y vas a acabar pidiendo clemencia.</b></p><br>\
+       <p style='padding-left:20px'><b>-Terry:Eso solo se ve de una manera Daniela, luchando. </b></p><br>\
+       <p> Daniela solo puede <a href='luchar'> luchar </a>.</p>"
+
+     ),
+
+     desafiante2: new undum.SimpleSituation(
+       "<p style='padding-left:20px'><b>-Daniela:Yo creo que sí se a lo que me enfrento, a un cobarde que huyó de la realidad y que sabía que tarde o temprano, todo vuelve.</b></p><br>\
+       <p style='padding-left:20px'><b>-Terry:Sólo te digo que he mejorado mucho desde que voy a esgrima así que prepárate. </b></p><br>\
+       <p> Daniela solo puede <a href='luchar'> luchar </a>.</p>"
+
+     ),
 
      luchar: new undum.SimpleSituation(
        "<h1>El último baile</h1>\
