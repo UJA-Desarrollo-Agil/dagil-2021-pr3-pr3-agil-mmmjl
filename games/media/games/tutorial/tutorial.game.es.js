@@ -453,7 +453,8 @@ undum.game.situations = {
        de salvar de nuevo su vida, como en los viejos tiempos. Estarían más atentos a partir de este momento.</p><br>\
        <p>Ambos siguieron el camino con bastante cuidado de no caer en más trampas hasta que vieron,\
        ahora sí, las casas de la carta de la playa. Ahí estaba Libertalia y no podían creérselo. La calavera puesta en un cartel era la prueba definitiva. Daniela no tenía más elección que\
-       <a href='entrarenlibertalia'>entrar en Libertalia.</a></p>"
+       <a href='entrarenlibertalia'>entrar en Libertalia.</a></p>\
+       <p><center><img src='./media/img/fuerzamujer.jpeg' height='500' width='320'></center></p>"
 
 ),
 
