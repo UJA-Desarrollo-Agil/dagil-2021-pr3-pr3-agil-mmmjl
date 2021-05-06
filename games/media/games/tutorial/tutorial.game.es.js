@@ -178,9 +178,9 @@ undum.game.situations = {
        Libertalia quedaría como un viejo deseo que tal vez nunca se descubra o en la que ella no fue relevante. \
        Daniela, algo emocionada, se veía con un sentimiento descrito a través de sus gestos. Estaba feliz, feliz de estar\
        con Andrew y tenerlo como compañero de vida y feliz por seguir viva después de tantos sustos. La carta fue guardada \
-       como un viejo anhelo en un baúl que tenía Daniela de las pocas reliquias que consiguió hace años.\
-       <b><center>Fin</center></b></p>\
-       <img src='./media/img/brighton.jpeg' height='320' width='500'>"
+       como un viejo anhelo en un baúl que tenía Daniela de las pocas reliquias que consiguió hace años.</p><br>\
+       <img src='./media/img/brighton.jpeg' height='320' width='500'>\
+       <p><b><center>🏴‍☠️ Fin 🏴‍☠️</center></b></p>"
     ),
 
 
@@ -380,14 +380,6 @@ undum.game.situations = {
           actions: {
             'espada': function(character, system, action){
               system.setQuality("Espada",true);
-            },
-
-            'plata': function(character, system, action){
-              system.setQuality("Plata", character.qualities.Plata+40000);
-            },
-
-            'oro': function(character, system, action){
-              system.setQuality("Oro", character.qualities.Plata+50000);
             }
           }
         }
@@ -410,21 +402,24 @@ undum.game.situations = {
      luchaespada: new undum.SimpleSituation(
        "<p>Daniela ha cogido la espada y puede luchar. Tras varios ataques de ambos, Terry derriba a Daniela y tras unas risas, Terry se dispone a\
         clavar la espada en el corazón de Daniela. Esta lo esquiva pasando por debajo de sus piernas y consigue clavarle su espada en el corazón a\
-         Terry, consiguiendo así su venganza. Tras esto, solo queda <a href='cogertesoro'>coger el tesoro completo y salir del barco </a>.</p>"
-
-
-     ),
-     cogertesoro: new undum.SimpleSituation(
-       "<h1>Libertalia a tus pies</h1>\
-        <p>Daniela consigue salir del barco justo cuando la salida empieza a venirse abajo y por poco queda sepultada entre rocas. Consigue\
-        salir y ahí estaba Tom, temblando por ver a su amiga conseguir el sueño de su padre, el conseguir el mayor tesoro y descubrir la mayor\
-        leyenda pirata jamás contada.Por último, Daniela llamó a Andrew y tras unos instantes, Andrew se vino abajo. Llevaba malo desde que ella\
-        se fue, pero suspiró al saber que seguía viva. A él no le importaban esos logros, solo quería ser feliz con ella. Eso hizo que a Daniela se \
-        le saltara una lágrima. Gracias al ingenio de Tom y la valentía de Daniela pudieron devolver el apellido Colby a la altura que se merecía y volver\
-        sanos y salvos de la mayor aventura que habían vivido en sus vidas.</p>\
-        <center><img src='./media/img/derrota.jpeg' height='300' width='250'></center>\
-        <b><center>Fin</center></b></p>"
-
+         Terry, consiguiendo así su venganza. Tras esto, solo queda <a href='./cogertesoro'>coger el tesoro completo y salir del barco </a>.</p>",
+         {
+           actions: {
+           'cogertesoro': function(character, system, action){
+             system.setQuality("Plata", character.qualities.Plata+40000);
+             system.setQuality("Oro", character.qualities.Oro+100000);
+             system.write("<h1>Libertalia a tus pies</h1>\
+              <p>Daniela consigue salir del barco justo cuando la salida empieza a venirse abajo y por poco queda sepultada entre rocas. Consigue\
+              salir y ahí estaba Tom, temblando por ver a su amiga conseguir el sueño de su padre, el conseguir el mayor tesoro y descubrir la mayor\
+              leyenda pirata jamás contada.Por último, Daniela llamó a Andrew y tras unos instantes, Andrew se vino abajo. Llevaba malo desde que ella\
+              se fue, pero suspiró al saber que seguía viva. A él no le importaban esos logros, solo quería ser feliz con ella. Eso hizo que a Daniela se \
+              le saltara una lágrima. Gracias al ingenio de Tom y la valentía de Daniela pudieron devolver el apellido Colby a la altura que se merecía y volver\
+              sanos y salvos de la mayor aventura que habían vivido en sus vidas.</p></br>\
+              <center><img src='./media/img/final.jpg' height='320' width='500'></center>\
+              <b><center>🏴‍☠️ Fin 🏴‍☠️</center></b></p>")
+           }
+         }
+       }
      ),
 
      usarcuerda: new undum.SimpleSituation(
@@ -448,11 +443,11 @@ undum.game.situations = {
       hacia delante por lo que pudiera pasar cuando de repente, la tierra se abrió ante ellos y cayeron por uno de los lados. Daniela consiguió agarrarse al único saliente que había\
       mientras que Tom estaba agarrado a Daniela. Daniela solo tenía 2 opciones: usar su fuerza para poder subir al camino mientras que Tom podría ponerse en el saliente y ya ayudarlo\
       o bien usar la cuerda que tanto le había servido otras veces para balancearse. Con ella podía enganchar una piedra enorme que estaba en el otro lado del camino e ir subiendo poco a poco,\
-      pero era más arriesgada ya que tiene que maniobrar para poder hacer el lazo. Daniela tiene que elegir entre: <a href='usarfueza'>usar su fuerza</a> o <a href='usarcuerda'> usar la cuerda.</a><br></p>\
+      pero era más arriesgada ya que tiene que maniobrar para poder hacer el lazo. Daniela tiene que elegir entre: <a href='usarfuerza'>usar su fuerza</a> o <a href='usarcuerda'> usar la cuerda.</a><br></p>\
       <center><img src='./media/img/camino2.jpg' height='500' width='320'></center></p>"
     ),
 
-    usarfueza: new undum.SimpleSituation(
+    usarfuerza: new undum.SimpleSituation(
       "<h1>La fuerza como salvación</h1>\
       <p>Daniela confió en su fuerza para desenterrar los enormes bloques y cajas de pequeños barcos que acababan en el puerto donde trabajaba para salir de aquella situación tan dramática.\
        Tom no iba a aguantar mucho más y ella menos ya que aguanta el peso de él. Se mentalizó bien y le explicó a Tom que tenía que agarrarse al saliente donde ella está ahora cuando ella haga\
@@ -461,8 +456,8 @@ undum.game.situations = {
        de salvar de nuevo su vida, como en los viejos tiempos. Estarían más atentos a partir de este momento.</p><br>\
        <p>Ambos siguieron el camino con bastante cuidado de no caer en más trampas hasta que vieron,\
        ahora sí, las casas de la carta de la playa. Ahí estaba Libertalia y no podían creérselo. La calavera puesta en un cartel era la prueba definitiva. Daniela no tenía más elección que\
-       <a href='entrarenlibertalia'>entrar en Libertalia.</a></p>\
-       <p><center><img src='./media/img/fuerzamujer.jpeg' height='500' width='320'></center></p>"
+       <a href='entrarenlibertalia'>entrar en Libertalia.</a></p><br>\
+       <p><center><img src='./media/img/precipicio.jpeg' height='320' width='500'></center></p>"
 
 ),
 
