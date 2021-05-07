@@ -222,3 +222,19 @@ Para este primer sprint haremos 12 situaciones de un total de 24 situaciones que
 Tras hacer el Product Backlog Refinement y ver que había nuevas historias de uso, las metimos en el Product Backlog y les dimos valor. Una vez hecho eso, esta vez no hemos añadido ninguna al sprint existente. A continuacion se verá una captura de pantalla con las tres historias de uso nuevas en el Product Backlog:
 
 ![Imagen33](./games/media/img/PBRSprint2.png)
+
+### Conclusiones obtenidas en la Sprint Review
+
+Las conclusiones obtenidas tras haber hecho el Sprint Review entre todos han sido las siguientes:
+
+- Se han hecho todas las historias de uso que se propusieron en el Sprint Backlog, sin dejar ninguna incompleta.
+
+- En general, la inclusión de situaciones por parte de todos los miembros del equipo ha sido satisfactoria aunque en esta ocasión los problemas han sido algo más frecuentes debido a que la inclusión de objetos y acciones varias han provocado problemas en el juego tales como que el juego se quedaba atascado en una acción al pinchar sobre ella. Luego las soluciones han sido fáciles de implementar y no han supuesto problemas adicionales.
+
+- El incremento en este Sprint se ve de manera clara debido a que el juego funciona totalmente y no falla nada. Comparado con el primer Sprint el juego pasa de estar a la mitad completado a totalmente completado.
+
+- En el siguiente Sprint veremos las métricas y con ello terminaremos este proyecto.
+
+- Ya no quedan historias de uso por hacer en el Sprint Backlog, luego todo ha sido completado.
+
+- En cuanto a los plazos, hemos ido bien de tiempo y no nos hemos visto apurados.
