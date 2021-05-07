@@ -329,21 +329,21 @@ undum.game.situations = {
       <p>Terry miró con asombro a Daniela y empezaron una conversación:</p><br>\
       <p style='padding-left:20px'><b>-Terry: Bueno, bueno, bueno que tenemos aquí. Querida señorita Colby, encantado de verla de nuevo en una aventura. ¿Qué te trae por aquí? Juraría que\
        estabas muerta.</b></p><br>\
-       <p>Daniela tiene la opción de <a href='ironicamente'>responder irónicamente</a> o <a href='desafiante'> responder desafiante.</a></p>"
+       <p>Daniela tiene la opción de <a href='ironicamente'>responder irónicamente</a> o <a href='desafiante'>responder desafiante.</a></p>"
 
      ),
 
      ironicamente: new undum.SimpleSituation(
        "<p style='padding-left:20px'><b>-Daniela: ¿Qué tal Señorito Jones? ¿Jugando a los tesoros de nuevo? ¿Con la edad que tienes no deberías estar ya retirado de esta vida?.</b></p><br>\
        <p style='padding-left:20px'><b>-Terry: A eso voy, a retirarme llevándome este tesoro. Ahora aparta o acabarás como estos 2 piratas.</b></p><br>\
-       <p> Daniela tiene la opción de <a href='ironicamente2'> responder irónicamente</a> o <a href='seriamente'> responder seriamente </a>.</p>"
+       <p> Daniela tiene la opción de <a href='ironicamente2'>responder irónicamente</a> o <a href='seriamente'>responder seriamente.</a></p>"
 
      ),
 
      ironicamente2: new undum.SimpleSituation(
        "<p style='padding-left:20px'><b>-Daniela: Me parece a mi que no te vas a retirar tan fácilmente, “amigo”.</b></p><br>\
        <p style='padding-left:20px'><b>-Terry: En ese caso solo queda luchar vieja amiga.</b></p><br>\
-       <p> Daniela solo puede <a href='luchar'> luchar </a>.</p>"
+       <p> Daniela solo puede <a href='luchar'>luchar.</a></p>"
 
 
      ),
@@ -351,35 +351,35 @@ undum.game.situations = {
      seriamente: new undum.SimpleSituation(
        "<p style='padding-left:20px'><b>-Daniela: Se acabaron las bromas Terry, vas a pagar por todo lo que me hiciste y has hecho a Libertalia.</b></p><br>\
        <p style='padding-left:20px'><b>-Terry: Que pena, vas a morir en un sitio en el que nadie va a escuchar tus gritos. Ahora si que no te salvas amiga mia.</b></p><br>\
-       <p> Daniela solo puede <a href='luchar'> luchar </a>.</p>"
+       <p> Daniela solo puede <a href='luchar'>luchar.</a></p>"
 
      ),
 
      desafiante: new undum.SimpleSituation(
        "<p style='padding-left:20px'><b>-Daniela: Muerto vas a estar tu por el daño que me hiciste Terry. Vas a pagarlo muy caro.</b></p><br>\
        <p style='padding-left:20px'><b>-Terry: ¿Estás segura? Creo que no sabes a qué te enfrentas.</b></p><br>\
-       <p> Daniela tiene la opcion de <a href='desafiante2'> responder en tono burlesco</a> o <a href='desafiante'> responder desafiante</a>.</p>"
+       <p> Daniela tiene la opcion de <a href='desafiante2'>responder en tono burlesco</a> o <a href='desafiante'>responder desafiante.</a></p>"
 
      ),
 
      burlesco: new undum.SimpleSituation(
        "<p style='padding-left:20px'><b>-Daniela: Pobre Terry, con lo joven que eres y vas a acabar pidiendo clemencia.</b></p><br>\
        <p style='padding-left:20px'><b>-Terry:Eso solo se ve de una manera Daniela, luchando. </b></p><br>\
-       <p> Daniela solo puede <a href='luchar'> luchar </a>.</p>"
+       <p> Daniela solo puede <a href='luchar'>luchar.</a></p>"
 
      ),
 
      desafiante2: new undum.SimpleSituation(
        "<p style='padding-left:20px'><b>-Daniela:Yo creo que sí se a lo que me enfrento, a un cobarde que huyó de la realidad y que sabía que tarde o temprano, todo vuelve.</b></p><br>\
        <p style='padding-left:20px'><b>-Terry:Sólo te digo que he mejorado mucho desde que voy a esgrima así que prepárate. </b></p><br>\
-       <p> Daniela solo puede <a href='luchar'> luchar </a>.</p>"
+       <p> Daniela solo puede <a href='luchar'>luchar.</a></p>"
 
      ),
 
      luchar: new undum.SimpleSituation(
        "<h1>El último baile</h1>\
        <p>Tras esa conversación, Terry sacó la espada del esqueleto de Tew y fue tras Daniela. Daniela esquivó el primer ataque y tiene la\
-        opción de <a class='once' href='./espada'>coger la espada de Avery </a>. Tras eso, Daniela ya podría <a href='luchar2'>luchar</a>.</p><br>\
+        opción de <a class='once' href='./espada'>coger la espada de Avery</a>. Tras eso, Daniela ya podría <a href='luchar2'>luchar.</a></p><br>\
         <img src='./media/img/espada.jpg' height='320' width='500'>",
         {
           actions: {
@@ -407,7 +407,7 @@ undum.game.situations = {
      luchaespada: new undum.SimpleSituation(
        "<p>Daniela ha cogido la espada y puede luchar. Tras varios ataques de ambos, Terry derriba a Daniela y tras unas risas, Terry se dispone a\
         clavar la espada en el corazón de Daniela. Esta lo esquiva pasando por debajo de sus piernas y consigue clavarle su espada en el corazón a\
-         Terry, consiguiendo así su venganza. Tras esto, solo queda <a href='./cogertesoro'>coger el tesoro completo y salir del barco </a>.</p>",
+         Terry, consiguiendo así su venganza. Tras esto, solo queda <a href='./cogertesoro'>coger el tesoro completo y salir del barco.</a></p>",
          {
            actions: {
            'cogertesoro': function(character, system, action){
@@ -425,6 +425,12 @@ undum.game.situations = {
            }
          }
        }
+     ),
+
+     luchanoespada: new undum.SimpleSituation(
+       "<p>Daniela no ha cogido la espada en su única oportunidad para esquivar \
+       el ataque y tras eso, no ha podido resistir y ha muerto a manos de Terry. \
+       <b><center>🏴‍☠️ Fin 🏴‍☠️</center></b></p>"
      ),
 
      usarcuerda: new undum.SimpleSituation(
