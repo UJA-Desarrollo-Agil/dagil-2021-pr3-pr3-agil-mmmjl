@@ -95,7 +95,7 @@ undum.game.situations = {
         <img src='./media/img/decepcion.jpg' height='320' width='500'>\
         <p>Andrew quedó desolado, pero entendió que era lo que Daniela siempre había deseado, cumplir\
         sus sueños y los de su padre. Pese a la tristeza que esto suponía, Andrew la animó a que fuera,\
-        pero la última decisión la tenía Daniela. Decide entre <a href='explorar'>ir a explorar la isla</a> o <a href='quedarse'>quedarse en Brighton</a>.</p>"
+        pero la última decisión la tenía Daniela. Decide entre <a href='explorar'>ir a explorar la isla</a> o <a href='quedarse'>quedarse en Brighton.</a></p>"
     ),
 
     ocultar: new undum.SimpleSituation(
@@ -166,8 +166,8 @@ undum.game.situations = {
         <p style='padding-left:20px'><em><b>¡Por Libertalia!</b></em></p><br>\
         <p style='padding-left:20px'><em><b>Thomas Tew y Henry Avery</b></em></p><br>\
         <p>Esta carta ya tenía buenos presentimientos. A Daniela y Tom se le iluminaron los ojos. Tras este subidón,\
-         Daniela tiene que decidir entre <a href='adentrarse'> adentrarse en la isla </a> o <a href='buscar'> buscar más\
-        en la orilla de la isla </a> por si había algo.</p>"
+         Daniela tiene que decidir entre <a href='adentrarse'>adentrarse en la isla</a> o <a href='buscar'>buscar más\
+        en la orilla de la isla</a> por si había algo.</p>"
     ),
 
     quedarse: new undum.SimpleSituation(
@@ -199,8 +199,8 @@ undum.game.situations = {
       algo más oscuro y con un ruido algo extraño, aunque el camino parecía bastante seguro a priori. El segundo\
       camino parecía algo más iluminado pero también algo abandonado, aunque se podía pasar por él sin problemas.\
       En este segundo camino, al lado del camino Daniela pudo ver como una calavera parecida al mapa de la playa,\
-      aunque esto no aseguraba nada a la cazatesoros. Daniela tiene que decidir entre <a href='camino1'>  ir por el primer\
-      camino </a> o <a href='camino2'> por el segundo camino.</a><br></p>\
+      aunque esto no aseguraba nada a la cazatesoros. Daniela tiene que decidir entre <a href='camino1'>ir por el primer\
+      camino</a> o <a href='camino2'>por el segundo camino.</a><br></p>\
       <img src='./media/img/caminos.jpeg' height='320' width='500'>"
     ),
 
@@ -226,7 +226,7 @@ undum.game.situations = {
       El destino estaba claro: el edificio más grande. ¿El por qué? La leyenda contaba que dentro de un gran lugar se encontraría un gran alijo de oro y plata\
       así que el destino estaba claro.Mientras que Daniela y Tom iban hacia ese destino, no paraban de ver como todo estaba desordenado, como si hubiera pasado\
       un ciclón por aquella isla. Llegaron al lugar en cuestión. Un cartel ponía al lado “Biblioteca” aunque también pintado en rojo las palabras “ladrones” a un lado del cartel.\
-      Daniela no tiene más elección que.<a href='biblioteca'>entrar a la biblioteca.</a><br><br>\
+      Daniela no tiene más elección que <a href='biblioteca'>entrar a la biblioteca.</a><br><br>\
       <center><img src='./media/img/libertalia.png' height='320' width='500'></center></p>"
     ),
 
@@ -259,7 +259,7 @@ undum.game.situations = {
       ellos. Ahora se entendía más las pintadas en la biblioteca. Tew y Avery mataron a todos los piratas envenenándolos, de forma que el tesoro que estaba en\
       poder de los 12 piratas que conformaban la colonia pasó a formar parte de sólo 2 piratas, lo que los hacía más ricos de lo que eran antes. En la sala\
       había pocas cosas a parte de aquella escena. Daniela tiene la posibilidad de coger <a class='once' href='./antorcha'>una antorcha</a> bien conservada pese al paso del \
-      tiempo, <a class='once' href='./candelabro'>un candelabro sin velas</a> y <a class='once' href='./parche'>un parche pirata</a>.</p><br>\
+      tiempo, <a class='once' href='./candelabro'>un candelabro sin velas</a> y <a class='once' href='./parche'>un parche pirata.</a></p><br>\
       <img src='./media/img/traicion.png' height='320' width='500'>\
       <p>Tras ver todo, Daniela divisa una gruta entre la pared. Tampoco había mucho mas que mirar así que lo mejor era seguir por esa gruta. Era pequeña pero\
       suficientemente grande para que entrasen los 2 aventureros. Daniela solo puede <a href='gruta'>entrar en la gruta.</p>",
@@ -311,6 +311,11 @@ undum.game.situations = {
       <p> Daniela lo tuvo claro: Tew traicionó a Avery y se quedó con el tesoro, pero no partió de ls isla puesto que su barco está aún aquí. Algo pasó y el secreto\
       está en el barco. Daniela lo tenía claro, tenía que <a href='barco'>ir al barco.</a></p>"
 
+    ),
+
+    grutanoantorcha: new undum.SimpleSituation(
+      "<p>Al entrar en la gruta, el frío empezó a calar en los huesos y no se veía nada. \
+      No se puede avanzar mientras que Daniela no encuentre una fuente de luz. Tiene que <a href='salatraicion'>volver a la sala.</a></p>"
     ),
 
     barco: new undum.SimpleSituation(
