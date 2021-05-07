@@ -238,3 +238,17 @@ Las conclusiones obtenidas tras haber hecho el Sprint Review entre todos han sid
 - Ya no quedan historias de uso por hacer en el Sprint Backlog, luego todo ha sido completado.
 
 - En cuanto a los plazos, hemos ido bien de tiempo y no nos hemos visto apurados.
+
+### Conclusiones obtenidas en la Sprint Retrospective
+
+#### ¿Qué ha ido bien?
+
+En general, las tareas repartidas entre todos los miembros del grupo y las tareas comunes han sido satisfactorias. Como hemos abordado en el Sprint Review, en este sprint los fallos han sido mas comunes debido a la introducción de acciones y por consecuente de objetos. Sin embargo, todo ha ido bien, incluidas las soluciones a estos problemas.
+
+#### ¿Qué se puede mejorar?
+
+En este sprint lo único que vemos a mejorar es el entendimiento generalizado de como funcionan las acciones, ya que a la hora de implementar las entities, estas han costado un poco mas hacerlas y han necesitado algún que otro arreglo.
+
+#### ¿Qué nos comprometemos a mejorar para el próximo Sprint?
+
+Nos comprometemos a mejorar el entendimiento de Undum, sobre todo el desarrollo de las acciones que es lo que más ha costado en general.
