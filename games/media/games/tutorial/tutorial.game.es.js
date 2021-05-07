@@ -380,11 +380,18 @@ undum.game.situations = {
           actions: {
             'espada': function(character, system, action){
               system.setQuality("Espada",true);
+            },
+
+            'plata': function(character, system, action){
+              system.setQuality("Plata", character.qualities.Plata+40000);
+            },
+
+            'oro': function(character, system, action){
+              system.setQuality("Oro", character.qualities.Plata+50000);
             }
           }
         }
-     ),
-
+      ),
 
      luchar2: new undum.SimpleSituation(
       "<h1>El fin del pasado</h1>\
