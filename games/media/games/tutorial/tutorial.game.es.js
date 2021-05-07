@@ -161,7 +161,7 @@ undum.game.situations = {
         <p>Tras llegar a la isla donde se escucharon los estruendos y la polvareda, Tom se encontró con otra carta\
          sobre una piedra en la arena de la orilla. Se la dio a Daniela y la leyó. Ponía lo siguiente:<br><br>\
         <p style='padding-left:20px'><em><b>Por Dios y la Libertad camaradas, este lugar será testigo de la creación\
-         de nuestro bastión y juntos seremos la unión de piratas más temida de todoslos mares. Esta unión solo es el\
+         de nuestro bastión y juntos seremos la unión de piratas más temida de todos los mares. Esta unión solo es el\
         comienzo de algo mas grande, el dominio total de todos los mares y con ello, seremos recordados por siempre.</b></em></p>\
         <p style='padding-left:20px'><em><b>¡Por Libertalia!</b></em></p><br>\
         <p style='padding-left:20px'><em><b>Thomas Tew y Henry Avery</b></em></p><br>\
@@ -194,7 +194,7 @@ undum.game.situations = {
       todos los piratas junto con sus familias. Tom no daba crédito ante tal hallazgo, aunque tenía un mal\
       presentimiento.</p>\
       <p>A los 10 minutos de estar andando entre árboles y frondosos arbustos, el camino se dividía\
-      en 2. El mapa no arrojaba pista en este sentido. Sólo salía un montón de casas junto con unas calaveras al\
+      en 2. El mapa no arrojaba pistas en este sentido. Sólo salía un montón de casas junto con unas calaveras al\
       lado, luego Daniela y Tom estaban dudosos de qué camino escoger. Se podía divisar que el primer camino era\
       algo más oscuro y con un ruido algo extraño, aunque el camino parecía bastante seguro a priori. El segundo\
       camino parecía algo más iluminado pero también algo abandonado, aunque se podía pasar por él sin problemas.\
@@ -301,11 +301,11 @@ undum.game.situations = {
       <p>Al entrar en la gruta hacía un frío gélido que hacía que empezaran a tiritar. Si a eso le sumabas la oscuridad en la que se sumergían Daniela y Tom complicaba\
       aún más el viaje. La antorcha encontrada en la sala de la traición ayudaba bastante a dar luz y calor al trayecto. Tras terminar la gruta, antes de salir, Tom paró\
       en seco a Daniela. La razón fue simple y es que Terry Jones, el enemigo de Daniela, se encontraba justo a unos metros de ellos. Guardaron la calma y dejaron que\
-      Terry se fuera dirección a un barco que estaba justo allí. Resulta que la gruta saba al mar de nuevo, a una salida de la isla. Al parecer el tesoro debe estar en\
+      Terry se fuera dirección a un barco que estaba justo allí. Resulta que la gruta daba al mar de nuevo, a una salida de la isla. Al parecer el tesoro debe estar en\
       ese barco.</p><br>\
       <p>Tras no haber nadie más, salieron de la gruta y vieron el barco en su máximo esplendor. Una nota había tirada justo al salir de la gruta. La nota decía así:<br><br>\
       <p style='padding-left:20px'><em><b> Solo unos pocos tienen reservado su sitio en el templo de los victoriosos. La confianza es síntoma de debilidad y no es un\
-      lazo fuerte. Sólo el interés mutuo y personal es un vínculo fiable, Henry. Te mandaré recuerdos desde Inglaterra, Avery.</b></em></p>\
+      lazo fuerte. Sólo el interés mutuo y personal es un vínculo fiable, Henry. Te mandaré recuerdos desde Inglaterra.</b></em></p>\
       <p style='padding-left:20px'><em><b>¡Por Libertalia!</b></em></p><br>\
       <p style='padding-left:20px'><em><b>Thomas Tew</b></em></p><br>\
       <p> Daniela lo tuvo claro: Tew traicionó a Avery y se quedó con el tesoro, pero no partió de ls isla puesto que su barco está aún aquí. Algo pasó y el secreto\
@@ -325,7 +325,7 @@ undum.game.situations = {
       <p>Daniela fue sola al barco. Tom no quería, pero sabía a la vez que ella es capaz de apañárselas con cualquiera, aunque hayan pasado los años. Tom se fue al\
       otro lado de esa salida donde pudo ver una isla más pequeña ya que un plan de escape ayudaría a Daniela a salir e esa parte de la isla.</p><br>\
       <p>Daniela entró en el barco y, tras una puerta de madera medio tirada, se encontraba Terry mirando de cerca el tesoro de Libertalia al lado de 2 esqueletos\
-      con 2 espadas clavadas en sus cuerpos ya convertidos en polvo. Eran Tew y Avery. Henry evitó que se marchara a Inglaterra con el tesoro y ambos lucharon\
+      con 2 espadas clavadas en sus cuerpos ya convertidos en polvo. Eran Tew y Avery. Henry evitó que Tew marchara a Inglaterra con el tesoro y ambos lucharon\
       hasta morir en ese navío. El tesoro estaba ahí: 100.000 monedas de oro y 40.000 monedas de plata.</p><br>\
       <p>Terry miró con asombro a Daniela y empezaron una conversación:</p><br>\
       <p style='padding-left:20px'><b>-Terry: Bueno, bueno, bueno que tenemos aquí. Querida señorita Colby, encantado de verla de nuevo en una aventura. ¿Qué te trae por aquí? Juraría que\
@@ -359,7 +359,7 @@ undum.game.situations = {
      desafiante: new undum.SimpleSituation(
        "<p style='padding-left:20px'><b>-Daniela: Muerto vas a estar tu por el daño que me hiciste Terry. Vas a pagarlo muy caro.</b></p><br>\
        <p style='padding-left:20px'><b>-Terry: ¿Estás segura? Creo que no sabes a qué te enfrentas.</b></p><br>\
-       <p> Daniela tiene la opcion de <a href='desafiante2'>responder en tono burlesco</a> o <a href='desafiante'>responder desafiante.</a></p>"
+       <p> Daniela tiene la opcion de <a href='burlesco'>responder en tono burlesco</a> o <a href='desafiante2'>responder desafiante.</a></p>"
 
      ),
 
@@ -408,7 +408,7 @@ undum.game.situations = {
      luchaespada: new undum.SimpleSituation(
        "<p>Daniela ha cogido la espada y puede luchar. Tras varios ataques de ambos, Terry derriba a Daniela y tras unas risas, Terry se dispone a\
         clavar la espada en el corazón de Daniela. Esta lo esquiva pasando por debajo de sus piernas y consigue clavarle su espada en el corazón a\
-         Terry, consiguiendo así su venganza. Tras esto, solo queda <a href='./cogertesoro'>coger el tesoro completo y salir del barco.</a></p>",
+         Terry, consiguiendo así su venganza. Tras esto, solo queda <a class='once' href='./cogertesoro'>coger el tesoro completo y salir del barco.</a></p>",
          {
            actions: {
            'cogertesoro': function(character, system, action){
@@ -417,7 +417,7 @@ undum.game.situations = {
              system.write("<h1>Libertalia a tus pies</h1>\
               <p>Daniela consigue salir del barco justo cuando la salida empieza a venirse abajo y por poco queda sepultada entre rocas. Consigue\
               salir y ahí estaba Tom, temblando por ver a su amiga conseguir el sueño de su padre, el conseguir el mayor tesoro y descubrir la mayor\
-              leyenda pirata jamás contada.Por último, Daniela llamó a Andrew y tras unos instantes, Andrew se vino abajo. Llevaba malo desde que ella\
+              leyenda pirata jamás contada. Por último, Daniela llamó a Andrew y tras unos instantes, Andrew se vino abajo. Llevaba malo desde que ella\
               se fue, pero suspiró al saber que seguía viva. A él no le importaban esos logros, solo quería ser feliz con ella. Eso hizo que a Daniela se \
               le saltara una lágrima. Gracias al ingenio de Tom y la valentía de Daniela pudieron devolver el apellido Colby a la altura que se merecía y volver\
               sanos y salvos de la mayor aventura que habían vivido en sus vidas.</p></br>\
@@ -439,7 +439,7 @@ undum.game.situations = {
       "<h1>El ingenio no siempre funciona</h1>\
       <p>Pese a que Daniela estaba desentrenada en el ámbito de escalar y usar su fuerza bruta, la idea de la cuerda es algo más arriesgada,\
       pero en zona de peligro, cualquier idea es válida. Daniela cogió con cuidado la cuerda para no tirar a Tom que se empezaba a cansar y\
-      consiguió lanzar un lazo hacia la roca enorme. Cuando empezó a tirar, la cuerda se partió en 2 y ambos acabaron cayendo al vacío. Fin </p><br>\
+      consiguió lanzar un lazo hacia la roca enorme. Cuando empezó a tirar, la cuerda se partió en 2 y ambos acabaron cayendo al vacío</p><br>\
       <b><center>🏴‍☠️ Fin 🏴‍☠️</center></b></p>"
      ),
 
@@ -451,10 +451,11 @@ undum.game.situations = {
       en la carta como al principio de este camino. Junto a él otra carta, aunque esta, comparada con la de la playa, bastante peor conservada. La carta decía lo siguiente:</p><br>\
       <p style='padding-left:20px'><em><b>Necios y sucios aquellos atrevidos que intentan seguir los pasos de la piratería. El noble arte del engaño está al alcance de pocos y\
       no todos poseen ese don. Sufrir la ira y el castigo de Libertalia será lo único que veréis de nuestro hogar. Quizás así aprendáis que nadie puede con nuestra hermandad.\
-      ¡Por Dios y la Libertad! Fundadores de Libertalia</b></em></p><br>\
+      ¡Por Dios y la Libertad!</b></em></p><br>\
+      <p style='padding-left:20px'><em><b> Fundadores de Libertalia</b></em></p><br>\
       <p>Esto ya no pintaba tan bien. Tom empezó a temblar y Daniela se percató de las decenas de cadáveres que se apilaban a los lados del camino. Comenzaron a correr camino\
       hacia delante por lo que pudiera pasar cuando de repente, la tierra se abrió ante ellos y cayeron por uno de los lados. Daniela consiguió agarrarse al único saliente que había\
-      mientras que Tom estaba agarrado a Daniela. Daniela solo tenía 2 opciones: usar su fuerza para poder subir al camino mientras que Tom podría ponerse en el saliente y ya ayudarlo\
+      mientras que Tom estaba agarrado a ella. Daniela solo tenía 2 opciones: usar su fuerza para poder subir al camino mientras que Tom podría ponerse en el saliente y ya ayudarlo\
       o bien usar la cuerda que tanto le había servido otras veces para balancearse. Con ella podía enganchar una piedra enorme que estaba en el otro lado del camino e ir subiendo poco a poco,\
       pero era más arriesgada ya que tiene que maniobrar para poder hacer el lazo. Daniela tiene que elegir entre: <a href='usarfuerza'>usar su fuerza</a> o <a href='usarcuerda'> usar la cuerda.</a><br></p>\
       <center><img src='./media/img/camino2.jpg' height='500' width='320'></center></p>"
@@ -477,7 +478,7 @@ undum.game.situations = {
     buscar: new undum.SimpleSituation(
       "<h1>Busca y rebusca</h1>\
       <p>Daniela se decidió a seguir buscando por la orilla. Podía haber algo que le podría dar más pistas sobre Libertalia y los piratas fundadores Thomas Tew y Henry Avery. Por desgracia no hubo nada\
-      más por toda la orilla así que no había mas remedio que. <a href='adentrarse'>adentrarse en la isla.</a><br>\
+      más por toda la orilla así que no había mas remedio que <a href='adentrarse'>adentrarse en la isla.</a><br>\
       <center><img src='./media/img/orilla.png' height='320' width='500'></center></p>"
     ),
 

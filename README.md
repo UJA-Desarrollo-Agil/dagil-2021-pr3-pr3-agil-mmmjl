@@ -270,14 +270,10 @@ Como se puede comprobar en la captura, todas las historias de uso programadas pa
 
 ### Captura de pantalla de las HU del Product Backlog una vez acabado el Sprint
 
-![Imagen22](./games/media/img/finals1.png)
+![Imagen39](./games/media/img/FinalSprint2f.png)
 
-![Imagen23](./games/media/img/finals2.png)
+![Imagen40](./games/media/img/FinalSprint2g.png)
 
-![Imagen24](./games/media/img/finals3.png)
+![Imagen41](./games/media/img/FinalSprint2h.png)
 
-![Imagen25](./games/media/img/finals4.png)
-
-![Imagen26](./games/media/img/finals5.png)
-
-![Imagen27](./games/media/img/finals6.png)
+![Imagen42](./games/media/img/FinalSprint2i.png)
