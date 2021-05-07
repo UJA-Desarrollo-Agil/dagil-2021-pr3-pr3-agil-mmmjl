@@ -252,3 +252,32 @@ En este sprint lo único que vemos a mejorar es el entendimiento generalizado de
 #### ¿Qué nos comprometemos a mejorar para el próximo Sprint?
 
 Nos comprometemos a mejorar el entendimiento de Undum, sobre todo el desarrollo de las acciones que es lo que más ha costado en general.
+
+### Captura de pantalla de las tareas del Sprint Planning al final del sprint
+
+Como se puede comprobar en la captura, todas las historias de uso programadas para este Sprint se han realizado satisfactoriamente. En la captura también se puede ver que miembro del grupo ha realizado la tarea.
+
+![Imagen34](./games/media/img/FinalSprint2a.png)
+
+![Imagen35](./games/media/img/FinalSprint2b.png)
+
+![Imagen36](./games/media/img/FinalSprint2c.png)
+
+![Imagen37](./games/media/img/FinalSprint2d.png)
+
+![Imagen38](./games/media/img/FinalSprint2e.png)
+
+
+### Captura de pantalla de las HU del Product Backlog una vez acabado el Sprint
+
+![Imagen22](./games/media/img/finals1.png)
+
+![Imagen23](./games/media/img/finals2.png)
+
+![Imagen24](./games/media/img/finals3.png)
+
+![Imagen25](./games/media/img/finals4.png)
+
+![Imagen26](./games/media/img/finals5.png)
+
+![Imagen27](./games/media/img/finals6.png)
