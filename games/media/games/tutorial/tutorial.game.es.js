@@ -314,7 +314,8 @@ undum.game.situations = {
     ),
 
     grutanoantorcha: new undum.SimpleSituation(
-      "<p>Al entrar en la gruta, el frío empezó a calar en los huesos y no se veía nada. \
+      "<img src='./media/img/sinantorcha.jpg' height='320' width='500'>\
+      <p>Al entrar en la gruta, el frío empezó a calar en los huesos y no se veía nada. \
       No se puede avanzar mientras que Daniela no encuentre una fuente de luz. Tiene que <a href='salatraicion'>volver a la sala.</a></p>"
     ),
 
@@ -428,7 +429,8 @@ undum.game.situations = {
      ),
 
      luchanoespada: new undum.SimpleSituation(
-       "<p>Daniela no ha cogido la espada en su única oportunidad para esquivar \
+       "<img src='./media/img/muerte.jpg' height='320' width='500'>\
+       <p>Daniela no ha cogido la espada en su única oportunidad para esquivar \
        el ataque y tras eso, no ha podido resistir y ha muerto a manos de Terry. \
        <b><center>🏴‍☠️ Fin 🏴‍☠️</center></b></p>"
      ),
