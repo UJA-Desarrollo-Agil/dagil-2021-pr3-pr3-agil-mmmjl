@@ -279,34 +279,41 @@ Como se puede comprobar en la captura, todas las historias de uso programadas pa
 ![Imagen42](./games/media/img/FinalSprint2i.png)
 
 
-# Sprint 2
+# Métricas
 
 ## Tabla para los datos de las gráficas del proyecto en su totalidad.
 
 ![Imagen43](./games/media/img/Metrica1.png)
+
 [Tabla](https://docs.google.com/spreadsheets/d/1bDfyqevUPPZpgdhkJeNdUGLQZAOrye0l8_3GnftFig8/edit#gid=575516312)
 
 ## Gráficas burndown y burn-up de los puntos de historia.
 
 ![Imagen44](./games/media/img/Metrica2.png)
+
 ![Imagen45](./games/media/img/Metrica3.png)
+
 [Tablas y Graficas](https://docs.google.com/spreadsheets/d/1bDfyqevUPPZpgdhkJeNdUGLQZAOrye0l8_3GnftFig8/edit#gid=447760227)
 
 ## Gráficas burndown y burn-up del Valor asociado a las Historias de Usuario.
 
 ![Imagen48](./games/media/img/Metrica4.png)
+
 ![Imagen49](./games/media/img/Metrica5.png)
+
 [Tablas y Graficas](https://docs.google.com/spreadsheets/d/1bDfyqevUPPZpgdhkJeNdUGLQZAOrye0l8_3GnftFig8/edit#gid=1695062466)
 
 
 ## Tabla de velocidades.
 
 ![Imagen51](./games/media/img/Metrica6.png)
+
 [Tabla](https://docs.google.com/spreadsheets/d/1bDfyqevUPPZpgdhkJeNdUGLQZAOrye0l8_3GnftFig8/edit#gid=1786680314)
 
 ## Tablas (una por cada sprint) con los datos para las gráficas de los sprints.
 
 ![Imagen53](./games/media/img/Metrica7.png)
+
 [Tablas](https://docs.google.com/spreadsheets/d/1bDfyqevUPPZpgdhkJeNdUGLQZAOrye0l8_3GnftFig8/edit#gid=1796047982)
 
 ## Gráficas burndown y burn-up de los puntos de historia o tareas del sprint 1.
@@ -314,13 +321,17 @@ Como se puede comprobar en la captura, todas las historias de uso programadas pa
 Tanto para el Sprint 1 como para el 2, hemos tenido en cuenta los datos referentes al Sprint Backlog en vez del Product Backlog, que lo hemos usado solo para la totalidad del proyecto.
 
 ![Imagen55](./games/media/img/Metrica8.png)
+
 ![Imagen56](./games/media/img/Metrica9.png)
+
 [Tablas y Graficas](https://docs.google.com/spreadsheets/d/1bDfyqevUPPZpgdhkJeNdUGLQZAOrye0l8_3GnftFig8/edit#gid=787886590)
 
 ## Gráficas burndown y burn-up de los puntos de historia o tareas del sprint 2.
 
 ![Imagen58](./games/media/img/Metrica10.png)
+
 ![Imagen59](./games/media/img/Metrica11.png)
+
 [Tablas y Graficas](https://docs.google.com/spreadsheets/d/1bDfyqevUPPZpgdhkJeNdUGLQZAOrye0l8_3GnftFig8/edit#gid=1649039288)
 
 ## Conclusiones que sacáis a la vista de las tablas y gráficas obtenidas.
